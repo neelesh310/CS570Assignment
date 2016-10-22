@@ -1,0 +1,1706 @@
+Sep 08, 2016 9:33:46 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.70
+Sep 08, 2016 9:33:46 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jun 15 2016 16:27:45 UTC
+Sep 08, 2016 9:33:46 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.70.0
+Sep 08, 2016 9:33:46 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 7
+Sep 08, 2016 9:33:46 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1
+Sep 08, 2016 9:33:46 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Sep 08, 2016 9:33:46 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_102\jre
+Sep 08, 2016 9:33:46 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_102-b14
+Sep 08, 2016 9:33:46 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Sep 08, 2016 9:33:46 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\CS570Project\apache-tomcat-7.0.70
+Sep 08, 2016 9:33:46 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\CS570Project\apache-tomcat-7.0.70
+Sep 08, 2016 9:33:46 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Sep 08, 2016 9:33:46 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\CS570Project\apache-tomcat-7.0.70\conf\logging.properties
+Sep 08, 2016 9:33:46 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Sep 08, 2016 9:33:46 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=D:\CS570Project\apache-tomcat-7.0.70\endorsed
+Sep 08, 2016 9:33:46 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\CS570Project\apache-tomcat-7.0.70
+Sep 08, 2016 9:33:46 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\CS570Project\apache-tomcat-7.0.70
+Sep 08, 2016 9:33:46 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\CS570Project\apache-tomcat-7.0.70\temp
+Sep 08, 2016 9:33:46 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.7 using APR version 1.5.2.
+Sep 08, 2016 9:33:46 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Sep 08, 2016 9:33:47 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.2h  3 May 2016)
+Sep 08, 2016 9:33:47 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Sep 08, 2016 9:33:47 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Sep 08, 2016 9:33:47 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1676 ms
+Sep 08, 2016 9:33:47 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 08, 2016 9:33:47 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.70
+Sep 08, 2016 9:36:25 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [265] milliseconds.
+Sep 08, 2016 9:36:25 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersIndexer.war
+Sep 08, 2016 9:36:26 AM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersIndexer'
+Sep 08, 2016 9:36:27 AM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 08, 2016 9:36:27 AM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersIndexer/WEB-INF/faces-config.xml for modifications
+Sep 08, 2016 9:36:28 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersIndexer.war has finished in 2,429 ms
+Sep 08, 2016 9:36:28 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war
+Sep 08, 2016 9:36:30 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 08, 2016 9:36:30 AM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersSearchEngine'
+Sep 08, 2016 9:36:31 AM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 08, 2016 9:36:31 AM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersSearchEngine/WEB-INF/faces-config.xml for modifications
+Sep 08, 2016 9:36:31 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war has finished in 3,346 ms
+Sep 08, 2016 9:36:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\examples
+Sep 08, 2016 9:36:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\examples has finished in 952 ms
+Sep 08, 2016 9:36:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\host-manager
+Sep 08, 2016 9:36:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\host-manager has finished in 140 ms
+Sep 08, 2016 9:36:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\manager
+Sep 08, 2016 9:36:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\manager has finished in 172 ms
+Sep 08, 2016 9:36:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\ROOT
+Sep 08, 2016 9:36:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\ROOT has finished in 78 ms
+Sep 08, 2016 9:36:32 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Sep 08, 2016 9:36:32 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Sep 08, 2016 9:36:32 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 165466 ms
+Sep 08, 2016 2:15:05 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/TheCrawlersSearchEngine]
+Sep 08, 2016 2:15:50 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war
+Sep 08, 2016 2:15:52 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 08, 2016 2:15:52 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersSearchEngine'
+Sep 08, 2016 2:15:52 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 08, 2016 2:15:52 PM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersSearchEngine/WEB-INF/faces-config.xml for modifications
+Sep 08, 2016 2:15:52 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war has finished in 1,979 ms
+Sep 08, 2016 2:16:03 PM com.sun.faces.lifecycle.InvokeApplicationPhase execute
+WARNING: #{searchBean.search}: java.lang.NullPointerException
+javax.faces.FacesException: #{searchBean.search}: java.lang.NullPointerException
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:118)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:442)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1082)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:623)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.faces.el.EvaluationException: java.lang.NullPointerException
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:101)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	... 28 more
+Caused by: java.lang.NullPointerException
+	at java.io.StringReader.<init>(StringReader.java:50)
+	at org.apache.lucene.search.highlight.Highlighter.getBestFragment(Highlighter.java:81)
+	at iit.cs570.assign1.web.managedbean.TFIDFSearcher.getBestFragment(TFIDFSearcher.java:79)
+	at iit.cs570.assign1.web.managedbean.SearchBean.search(SearchBean.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:279)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:273)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	... 29 more
+
+Sep 08, 2016 2:16:03 PM com.sun.faces.context.ExceptionHandlerImpl log
+1100: JSF1073: javax.faces.FacesException caught during processing of INVOKE_APPLICATION 5 : UIComponent-ClientId=, Message=#{searchBean.search}: java.lang.NullPointerException
+Sep 08, 2016 2:16:03 PM com.sun.faces.context.ExceptionHandlerImpl log
+1100: #{searchBean.search}: java.lang.NullPointerException
+javax.faces.FacesException: #{searchBean.search}: java.lang.NullPointerException
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:89)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:442)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1082)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:623)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.faces.FacesException: #{searchBean.search}: java.lang.NullPointerException
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:118)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	... 24 more
+Caused by: javax.faces.el.EvaluationException: java.lang.NullPointerException
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:101)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	... 28 more
+Caused by: java.lang.NullPointerException
+	at java.io.StringReader.<init>(StringReader.java:50)
+	at org.apache.lucene.search.highlight.Highlighter.getBestFragment(Highlighter.java:81)
+	at iit.cs570.assign1.web.managedbean.TFIDFSearcher.getBestFragment(TFIDFSearcher.java:79)
+	at iit.cs570.assign1.web.managedbean.SearchBean.search(SearchBean.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:279)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:273)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	... 29 more
+
+Sep 08, 2016 2:27:47 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/TheCrawlersSearchEngine]
+Sep 08, 2016 2:27:51 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war
+Sep 08, 2016 2:27:52 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 08, 2016 2:27:52 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersSearchEngine'
+Sep 08, 2016 2:27:52 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 08, 2016 2:27:52 PM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersSearchEngine/WEB-INF/faces-config.xml for modifications
+Sep 08, 2016 2:27:52 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war has finished in 1,448 ms
+Sep 08, 2016 2:28:19 PM com.sun.faces.lifecycle.InvokeApplicationPhase execute
+WARNING: #{searchBean.search}: java.lang.NullPointerException
+javax.faces.FacesException: #{searchBean.search}: java.lang.NullPointerException
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:118)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:442)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1082)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:623)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.faces.el.EvaluationException: java.lang.NullPointerException
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:101)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	... 28 more
+Caused by: java.lang.NullPointerException
+	at java.io.StringReader.<init>(StringReader.java:50)
+	at org.apache.lucene.search.highlight.Highlighter.getBestFragment(Highlighter.java:81)
+	at iit.cs570.assign1.web.managedbean.TFIDFSearcher.getBestFragment(TFIDFSearcher.java:80)
+	at iit.cs570.assign1.web.managedbean.SearchBean.search(SearchBean.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:279)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:273)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	... 29 more
+
+Sep 08, 2016 2:28:19 PM com.sun.faces.context.ExceptionHandlerImpl log
+1100: JSF1073: javax.faces.FacesException caught during processing of INVOKE_APPLICATION 5 : UIComponent-ClientId=, Message=#{searchBean.search}: java.lang.NullPointerException
+Sep 08, 2016 2:28:19 PM com.sun.faces.context.ExceptionHandlerImpl log
+1100: #{searchBean.search}: java.lang.NullPointerException
+javax.faces.FacesException: #{searchBean.search}: java.lang.NullPointerException
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:89)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:442)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1082)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:623)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.faces.FacesException: #{searchBean.search}: java.lang.NullPointerException
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:118)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	... 24 more
+Caused by: javax.faces.el.EvaluationException: java.lang.NullPointerException
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:101)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	... 28 more
+Caused by: java.lang.NullPointerException
+	at java.io.StringReader.<init>(StringReader.java:50)
+	at org.apache.lucene.search.highlight.Highlighter.getBestFragment(Highlighter.java:81)
+	at iit.cs570.assign1.web.managedbean.TFIDFSearcher.getBestFragment(TFIDFSearcher.java:80)
+	at iit.cs570.assign1.web.managedbean.SearchBean.search(SearchBean.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:279)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:273)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	... 29 more
+
+Sep 08, 2016 2:34:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.70
+Sep 08, 2016 2:34:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jun 15 2016 16:27:45 UTC
+Sep 08, 2016 2:34:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.70.0
+Sep 08, 2016 2:34:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 7
+Sep 08, 2016 2:34:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1
+Sep 08, 2016 2:34:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Sep 08, 2016 2:34:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_102\jre
+Sep 08, 2016 2:34:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_102-b14
+Sep 08, 2016 2:34:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Sep 08, 2016 2:34:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\CS570Project\apache-tomcat-7.0.70
+Sep 08, 2016 2:34:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\CS570Project\apache-tomcat-7.0.70
+Sep 08, 2016 2:34:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Sep 08, 2016 2:34:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\CS570Project\apache-tomcat-7.0.70\conf\logging.properties
+Sep 08, 2016 2:34:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Sep 08, 2016 2:34:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=D:\CS570Project\apache-tomcat-7.0.70\endorsed
+Sep 08, 2016 2:34:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\CS570Project\apache-tomcat-7.0.70
+Sep 08, 2016 2:34:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\CS570Project\apache-tomcat-7.0.70
+Sep 08, 2016 2:34:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\CS570Project\apache-tomcat-7.0.70\temp
+Sep 08, 2016 2:34:59 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.7 using APR version 1.5.2.
+Sep 08, 2016 2:34:59 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Sep 08, 2016 2:35:00 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.2h  3 May 2016)
+Sep 08, 2016 2:35:00 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Sep 08, 2016 2:35:00 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Sep 08, 2016 2:35:00 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1587 ms
+Sep 08, 2016 2:35:00 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 08, 2016 2:35:00 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.70
+Sep 08, 2016 2:37:58 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [564] milliseconds.
+Sep 08, 2016 2:37:58 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersIndexer.war
+Sep 08, 2016 2:38:01 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersIndexer'
+Sep 08, 2016 2:38:02 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 08, 2016 2:38:04 PM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersIndexer/WEB-INF/faces-config.xml for modifications
+Sep 08, 2016 2:38:05 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersIndexer.war has finished in 6,303 ms
+Sep 08, 2016 2:38:05 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war
+Sep 08, 2016 2:38:09 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 08, 2016 2:38:09 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersSearchEngine'
+Sep 08, 2016 2:38:09 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 08, 2016 2:38:09 PM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersSearchEngine/WEB-INF/faces-config.xml for modifications
+Sep 08, 2016 2:38:09 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war has finished in 4,793 ms
+Sep 08, 2016 2:38:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\examples
+Sep 08, 2016 2:38:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\examples has finished in 4,416 ms
+Sep 08, 2016 2:38:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\host-manager
+Sep 08, 2016 2:38:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\host-manager has finished in 94 ms
+Sep 08, 2016 2:38:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\manager
+Sep 08, 2016 2:38:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\manager has finished in 62 ms
+Sep 08, 2016 2:38:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\ROOT
+Sep 08, 2016 2:38:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\ROOT has finished in 172 ms
+Sep 08, 2016 2:38:14 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Sep 08, 2016 2:38:14 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Sep 08, 2016 2:38:14 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 194176 ms
+Sep 08, 2016 2:48:45 PM com.sun.faces.lifecycle.InvokeApplicationPhase execute
+WARNING: #{searchBean.search}: org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.apache.lucene.store.MMapDirectory@D:\CS570Project\IndexTFIDF lockFactory=org.apache.lucene.store.NativeFSLockFactory@3445e272: files: [write.lock, _18.fdt, _18.fdx, _18.fnm, _18.nvd, _18.nvm, _18.si, _18.tvd, _18.tvx, _18_Lucene41_0.doc, _18_Lucene41_0.pay, _18_Lucene41_0.pos, _18_Lucene41_0.tim, _18_Lucene41_0.tip, _1j.fdt, _1j.fdx, _1j.fnm, _1j.nvd, _1j.nvm, _1j.si, _1j.tvd, _1j.tvx, _1j_Lucene41_0.doc, _1j_Lucene41_0.pay, _1j_Lucene41_0.pos, _1j_Lucene41_0.tim, _1j_Lucene41_0.tip, _1u.fdt, _1u.fdx, _1u.fnm, _1u.nvd, _1u.nvm, _1u.si, _1u.tvd, _1u.tvx, _1u_Lucene41_0.doc, _1u_Lucene41_0.pay, _1u_Lucene41_0.pos, _1u_Lucene41_0.tim, _1u_Lucene41_0.tip, _26.fdt, _26.fdx, _26.fnm, _26.nvd, _26.nvm, _26.si, _26.tvd, _26.tvx, _26_Lucene41_0.doc, _26_Lucene41_0.pay, _26_Lucene41_0.pos, _26_Lucene41_0.tim, _26_Lucene41_0.tip, _2g.fdt, _2g.fdx, _2g.fnm, _2g.nvd, _2g.nvm, _2g.si, _2g.tvd, _2g.tvx, _2g_Lucene41_0.doc, _2g_Lucene41_0.pay, _2g_Lucene41_0.pos, _2g_Lucene41_0.tim, _2g_Lucene41_0.tip, _2r.fdt, _2r.fdx, _2r.fnm, _2r.nvd, _2r.nvm, _2r.si, _2r.tvd, _2r.tvx, _2r_Lucene41_0.doc, _2r_Lucene41_0.pay, _2r_Lucene41_0.pos, _2r_Lucene41_0.tim, _2r_Lucene41_0.tip, _32.cfe, _32.cfs, _32.si, _3c.cfe, _3c.cfs, _3c.si, _3d.cfe, _3d.cfs, _3d.si, _3e.fdt, _3e.fdx, _3e.nvd, _3e.nvm, _3e.tvd, _3e.tvx, _3e_Lucene41_0.doc, _3e_Lucene41_0.pay, _3e_Lucene41_0.pos, _3e_Lucene41_0.tim, _3e_Lucene41_0.tip, _3h.cfe, _3h.cfs, _3h.si, _3i.cfe, _3i.cfs, _3i.si, _3j.cfe, _3j.cfs, _3j.si, _3l.cfe, _3l.cfs, _3l.si, _3o.cfe, _3o.cfs, _3o.si, _3p.cfe, _3p.cfs, _3p.si, _3q.cfe, _3q.cfs, _3q.si, _3s.cfe, _3s.cfs, _3s.si, _3v.cfe, _3v.cfs, _3v.si, _3y.cfe, _3y.cfs, _3y.si, _3z.cfe, _3z.cfs, _3z.si, _40.cfe, _40.cfs, _40.si, _41.cfe, _41.cfs, _41.si, _42.cfe, _42.cfs, _42.si, _b.fdt, _b.fdx, _b.fnm, _b.nvd, _b.nvm, _b.si, _b.tvd, _b.tvx, _b_Lucene41_0.doc, _b_Lucene41_0.pay, _b_Lucene41_0.pos, _b_Lucene41_0.tim, _b_Lucene41_0.tip, _n.fdt, _n.fdx, _n.fnm, _n.nvd, _n.nvm, _n.si, _n.tvd, _n.tvx, _n_Lucene41_0.doc, _n_Lucene41_0.pay, _n_Lucene41_0.pos, _n_Lucene41_0.tim, _n_Lucene41_0.tip, _x.fdt, _x.fdx, _x.fnm, _x.nvd, _x.nvm, _x.si, _x.tvd, _x.tvx, _x_Lucene41_0.doc, _x_Lucene41_0.pay, _x_Lucene41_0.pos, _x_Lucene41_0.tim, _x_Lucene41_0.tip]
+javax.faces.FacesException: #{searchBean.search}: org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.apache.lucene.store.MMapDirectory@D:\CS570Project\IndexTFIDF lockFactory=org.apache.lucene.store.NativeFSLockFactory@3445e272: files: [write.lock, _18.fdt, _18.fdx, _18.fnm, _18.nvd, _18.nvm, _18.si, _18.tvd, _18.tvx, _18_Lucene41_0.doc, _18_Lucene41_0.pay, _18_Lucene41_0.pos, _18_Lucene41_0.tim, _18_Lucene41_0.tip, _1j.fdt, _1j.fdx, _1j.fnm, _1j.nvd, _1j.nvm, _1j.si, _1j.tvd, _1j.tvx, _1j_Lucene41_0.doc, _1j_Lucene41_0.pay, _1j_Lucene41_0.pos, _1j_Lucene41_0.tim, _1j_Lucene41_0.tip, _1u.fdt, _1u.fdx, _1u.fnm, _1u.nvd, _1u.nvm, _1u.si, _1u.tvd, _1u.tvx, _1u_Lucene41_0.doc, _1u_Lucene41_0.pay, _1u_Lucene41_0.pos, _1u_Lucene41_0.tim, _1u_Lucene41_0.tip, _26.fdt, _26.fdx, _26.fnm, _26.nvd, _26.nvm, _26.si, _26.tvd, _26.tvx, _26_Lucene41_0.doc, _26_Lucene41_0.pay, _26_Lucene41_0.pos, _26_Lucene41_0.tim, _26_Lucene41_0.tip, _2g.fdt, _2g.fdx, _2g.fnm, _2g.nvd, _2g.nvm, _2g.si, _2g.tvd, _2g.tvx, _2g_Lucene41_0.doc, _2g_Lucene41_0.pay, _2g_Lucene41_0.pos, _2g_Lucene41_0.tim, _2g_Lucene41_0.tip, _2r.fdt, _2r.fdx, _2r.fnm, _2r.nvd, _2r.nvm, _2r.si, _2r.tvd, _2r.tvx, _2r_Lucene41_0.doc, _2r_Lucene41_0.pay, _2r_Lucene41_0.pos, _2r_Lucene41_0.tim, _2r_Lucene41_0.tip, _32.cfe, _32.cfs, _32.si, _3c.cfe, _3c.cfs, _3c.si, _3d.cfe, _3d.cfs, _3d.si, _3e.fdt, _3e.fdx, _3e.nvd, _3e.nvm, _3e.tvd, _3e.tvx, _3e_Lucene41_0.doc, _3e_Lucene41_0.pay, _3e_Lucene41_0.pos, _3e_Lucene41_0.tim, _3e_Lucene41_0.tip, _3h.cfe, _3h.cfs, _3h.si, _3i.cfe, _3i.cfs, _3i.si, _3j.cfe, _3j.cfs, _3j.si, _3l.cfe, _3l.cfs, _3l.si, _3o.cfe, _3o.cfs, _3o.si, _3p.cfe, _3p.cfs, _3p.si, _3q.cfe, _3q.cfs, _3q.si, _3s.cfe, _3s.cfs, _3s.si, _3v.cfe, _3v.cfs, _3v.si, _3y.cfe, _3y.cfs, _3y.si, _3z.cfe, _3z.cfs, _3z.si, _40.cfe, _40.cfs, _40.si, _41.cfe, _41.cfs, _41.si, _42.cfe, _42.cfs, _42.si, _b.fdt, _b.fdx, _b.fnm, _b.nvd, _b.nvm, _b.si, _b.tvd, _b.tvx, _b_Lucene41_0.doc, _b_Lucene41_0.pay, _b_Lucene41_0.pos, _b_Lucene41_0.tim, _b_Lucene41_0.tip, _n.fdt, _n.fdx, _n.fnm, _n.nvd, _n.nvm, _n.si, _n.tvd, _n.tvx, _n_Lucene41_0.doc, _n_Lucene41_0.pay, _n_Lucene41_0.pos, _n_Lucene41_0.tim, _n_Lucene41_0.tip, _x.fdt, _x.fdx, _x.fnm, _x.nvd, _x.nvm, _x.si, _x.tvd, _x.tvx, _x_Lucene41_0.doc, _x_Lucene41_0.pay, _x_Lucene41_0.pos, _x_Lucene41_0.tim, _x_Lucene41_0.tip]
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:118)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:442)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1082)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:623)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.faces.el.EvaluationException: org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.apache.lucene.store.MMapDirectory@D:\CS570Project\IndexTFIDF lockFactory=org.apache.lucene.store.NativeFSLockFactory@3445e272: files: [write.lock, _18.fdt, _18.fdx, _18.fnm, _18.nvd, _18.nvm, _18.si, _18.tvd, _18.tvx, _18_Lucene41_0.doc, _18_Lucene41_0.pay, _18_Lucene41_0.pos, _18_Lucene41_0.tim, _18_Lucene41_0.tip, _1j.fdt, _1j.fdx, _1j.fnm, _1j.nvd, _1j.nvm, _1j.si, _1j.tvd, _1j.tvx, _1j_Lucene41_0.doc, _1j_Lucene41_0.pay, _1j_Lucene41_0.pos, _1j_Lucene41_0.tim, _1j_Lucene41_0.tip, _1u.fdt, _1u.fdx, _1u.fnm, _1u.nvd, _1u.nvm, _1u.si, _1u.tvd, _1u.tvx, _1u_Lucene41_0.doc, _1u_Lucene41_0.pay, _1u_Lucene41_0.pos, _1u_Lucene41_0.tim, _1u_Lucene41_0.tip, _26.fdt, _26.fdx, _26.fnm, _26.nvd, _26.nvm, _26.si, _26.tvd, _26.tvx, _26_Lucene41_0.doc, _26_Lucene41_0.pay, _26_Lucene41_0.pos, _26_Lucene41_0.tim, _26_Lucene41_0.tip, _2g.fdt, _2g.fdx, _2g.fnm, _2g.nvd, _2g.nvm, _2g.si, _2g.tvd, _2g.tvx, _2g_Lucene41_0.doc, _2g_Lucene41_0.pay, _2g_Lucene41_0.pos, _2g_Lucene41_0.tim, _2g_Lucene41_0.tip, _2r.fdt, _2r.fdx, _2r.fnm, _2r.nvd, _2r.nvm, _2r.si, _2r.tvd, _2r.tvx, _2r_Lucene41_0.doc, _2r_Lucene41_0.pay, _2r_Lucene41_0.pos, _2r_Lucene41_0.tim, _2r_Lucene41_0.tip, _32.cfe, _32.cfs, _32.si, _3c.cfe, _3c.cfs, _3c.si, _3d.cfe, _3d.cfs, _3d.si, _3e.fdt, _3e.fdx, _3e.nvd, _3e.nvm, _3e.tvd, _3e.tvx, _3e_Lucene41_0.doc, _3e_Lucene41_0.pay, _3e_Lucene41_0.pos, _3e_Lucene41_0.tim, _3e_Lucene41_0.tip, _3h.cfe, _3h.cfs, _3h.si, _3i.cfe, _3i.cfs, _3i.si, _3j.cfe, _3j.cfs, _3j.si, _3l.cfe, _3l.cfs, _3l.si, _3o.cfe, _3o.cfs, _3o.si, _3p.cfe, _3p.cfs, _3p.si, _3q.cfe, _3q.cfs, _3q.si, _3s.cfe, _3s.cfs, _3s.si, _3v.cfe, _3v.cfs, _3v.si, _3y.cfe, _3y.cfs, _3y.si, _3z.cfe, _3z.cfs, _3z.si, _40.cfe, _40.cfs, _40.si, _41.cfe, _41.cfs, _41.si, _42.cfe, _42.cfs, _42.si, _b.fdt, _b.fdx, _b.fnm, _b.nvd, _b.nvm, _b.si, _b.tvd, _b.tvx, _b_Lucene41_0.doc, _b_Lucene41_0.pay, _b_Lucene41_0.pos, _b_Lucene41_0.tim, _b_Lucene41_0.tip, _n.fdt, _n.fdx, _n.fnm, _n.nvd, _n.nvm, _n.si, _n.tvd, _n.tvx, _n_Lucene41_0.doc, _n_Lucene41_0.pay, _n_Lucene41_0.pos, _n_Lucene41_0.tim, _n_Lucene41_0.tip, _x.fdt, _x.fdx, _x.fnm, _x.nvd, _x.nvm, _x.si, _x.tvd, _x.tvx, _x_Lucene41_0.doc, _x_Lucene41_0.pay, _x_Lucene41_0.pos, _x_Lucene41_0.tim, _x_Lucene41_0.tip]
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:101)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	... 28 more
+Caused by: org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.apache.lucene.store.MMapDirectory@D:\CS570Project\IndexTFIDF lockFactory=org.apache.lucene.store.NativeFSLockFactory@3445e272: files: [write.lock, _18.fdt, _18.fdx, _18.fnm, _18.nvd, _18.nvm, _18.si, _18.tvd, _18.tvx, _18_Lucene41_0.doc, _18_Lucene41_0.pay, _18_Lucene41_0.pos, _18_Lucene41_0.tim, _18_Lucene41_0.tip, _1j.fdt, _1j.fdx, _1j.fnm, _1j.nvd, _1j.nvm, _1j.si, _1j.tvd, _1j.tvx, _1j_Lucene41_0.doc, _1j_Lucene41_0.pay, _1j_Lucene41_0.pos, _1j_Lucene41_0.tim, _1j_Lucene41_0.tip, _1u.fdt, _1u.fdx, _1u.fnm, _1u.nvd, _1u.nvm, _1u.si, _1u.tvd, _1u.tvx, _1u_Lucene41_0.doc, _1u_Lucene41_0.pay, _1u_Lucene41_0.pos, _1u_Lucene41_0.tim, _1u_Lucene41_0.tip, _26.fdt, _26.fdx, _26.fnm, _26.nvd, _26.nvm, _26.si, _26.tvd, _26.tvx, _26_Lucene41_0.doc, _26_Lucene41_0.pay, _26_Lucene41_0.pos, _26_Lucene41_0.tim, _26_Lucene41_0.tip, _2g.fdt, _2g.fdx, _2g.fnm, _2g.nvd, _2g.nvm, _2g.si, _2g.tvd, _2g.tvx, _2g_Lucene41_0.doc, _2g_Lucene41_0.pay, _2g_Lucene41_0.pos, _2g_Lucene41_0.tim, _2g_Lucene41_0.tip, _2r.fdt, _2r.fdx, _2r.fnm, _2r.nvd, _2r.nvm, _2r.si, _2r.tvd, _2r.tvx, _2r_Lucene41_0.doc, _2r_Lucene41_0.pay, _2r_Lucene41_0.pos, _2r_Lucene41_0.tim, _2r_Lucene41_0.tip, _32.cfe, _32.cfs, _32.si, _3c.cfe, _3c.cfs, _3c.si, _3d.cfe, _3d.cfs, _3d.si, _3e.fdt, _3e.fdx, _3e.nvd, _3e.nvm, _3e.tvd, _3e.tvx, _3e_Lucene41_0.doc, _3e_Lucene41_0.pay, _3e_Lucene41_0.pos, _3e_Lucene41_0.tim, _3e_Lucene41_0.tip, _3h.cfe, _3h.cfs, _3h.si, _3i.cfe, _3i.cfs, _3i.si, _3j.cfe, _3j.cfs, _3j.si, _3l.cfe, _3l.cfs, _3l.si, _3o.cfe, _3o.cfs, _3o.si, _3p.cfe, _3p.cfs, _3p.si, _3q.cfe, _3q.cfs, _3q.si, _3s.cfe, _3s.cfs, _3s.si, _3v.cfe, _3v.cfs, _3v.si, _3y.cfe, _3y.cfs, _3y.si, _3z.cfe, _3z.cfs, _3z.si, _40.cfe, _40.cfs, _40.si, _41.cfe, _41.cfs, _41.si, _42.cfe, _42.cfs, _42.si, _b.fdt, _b.fdx, _b.fnm, _b.nvd, _b.nvm, _b.si, _b.tvd, _b.tvx, _b_Lucene41_0.doc, _b_Lucene41_0.pay, _b_Lucene41_0.pos, _b_Lucene41_0.tim, _b_Lucene41_0.tip, _n.fdt, _n.fdx, _n.fnm, _n.nvd, _n.nvm, _n.si, _n.tvd, _n.tvx, _n_Lucene41_0.doc, _n_Lucene41_0.pay, _n_Lucene41_0.pos, _n_Lucene41_0.tim, _n_Lucene41_0.tip, _x.fdt, _x.fdx, _x.fnm, _x.nvd, _x.nvm, _x.si, _x.tvd, _x.tvx, _x_Lucene41_0.doc, _x_Lucene41_0.pay, _x_Lucene41_0.pos, _x_Lucene41_0.tim, _x_Lucene41_0.tip]
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:741)
+	at org.apache.lucene.index.StandardDirectoryReader.open(StandardDirectoryReader.java:52)
+	at org.apache.lucene.index.DirectoryReader.open(DirectoryReader.java:66)
+	at iit.cs570.assign1.web.managedbean.TFIDFSearcher.<init>(TFIDFSearcher.java:47)
+	at iit.cs570.assign1.web.managedbean.SearchBean.search(SearchBean.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:279)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:273)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	... 29 more
+
+Sep 08, 2016 2:48:46 PM com.sun.faces.context.ExceptionHandlerImpl log
+1100: JSF1073: javax.faces.FacesException caught during processing of INVOKE_APPLICATION 5 : UIComponent-ClientId=, Message=#{searchBean.search}: org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.apache.lucene.store.MMapDirectory@D:\CS570Project\IndexTFIDF lockFactory=org.apache.lucene.store.NativeFSLockFactory@3445e272: files: [write.lock, _18.fdt, _18.fdx, _18.fnm, _18.nvd, _18.nvm, _18.si, _18.tvd, _18.tvx, _18_Lucene41_0.doc, _18_Lucene41_0.pay, _18_Lucene41_0.pos, _18_Lucene41_0.tim, _18_Lucene41_0.tip, _1j.fdt, _1j.fdx, _1j.fnm, _1j.nvd, _1j.nvm, _1j.si, _1j.tvd, _1j.tvx, _1j_Lucene41_0.doc, _1j_Lucene41_0.pay, _1j_Lucene41_0.pos, _1j_Lucene41_0.tim, _1j_Lucene41_0.tip, _1u.fdt, _1u.fdx, _1u.fnm, _1u.nvd, _1u.nvm, _1u.si, _1u.tvd, _1u.tvx, _1u_Lucene41_0.doc, _1u_Lucene41_0.pay, _1u_Lucene41_0.pos, _1u_Lucene41_0.tim, _1u_Lucene41_0.tip, _26.fdt, _26.fdx, _26.fnm, _26.nvd, _26.nvm, _26.si, _26.tvd, _26.tvx, _26_Lucene41_0.doc, _26_Lucene41_0.pay, _26_Lucene41_0.pos, _26_Lucene41_0.tim, _26_Lucene41_0.tip, _2g.fdt, _2g.fdx, _2g.fnm, _2g.nvd, _2g.nvm, _2g.si, _2g.tvd, _2g.tvx, _2g_Lucene41_0.doc, _2g_Lucene41_0.pay, _2g_Lucene41_0.pos, _2g_Lucene41_0.tim, _2g_Lucene41_0.tip, _2r.fdt, _2r.fdx, _2r.fnm, _2r.nvd, _2r.nvm, _2r.si, _2r.tvd, _2r.tvx, _2r_Lucene41_0.doc, _2r_Lucene41_0.pay, _2r_Lucene41_0.pos, _2r_Lucene41_0.tim, _2r_Lucene41_0.tip, _32.cfe, _32.cfs, _32.si, _3c.cfe, _3c.cfs, _3c.si, _3d.cfe, _3d.cfs, _3d.si, _3e.fdt, _3e.fdx, _3e.nvd, _3e.nvm, _3e.tvd, _3e.tvx, _3e_Lucene41_0.doc, _3e_Lucene41_0.pay, _3e_Lucene41_0.pos, _3e_Lucene41_0.tim, _3e_Lucene41_0.tip, _3h.cfe, _3h.cfs, _3h.si, _3i.cfe, _3i.cfs, _3i.si, _3j.cfe, _3j.cfs, _3j.si, _3l.cfe, _3l.cfs, _3l.si, _3o.cfe, _3o.cfs, _3o.si, _3p.cfe, _3p.cfs, _3p.si, _3q.cfe, _3q.cfs, _3q.si, _3s.cfe, _3s.cfs, _3s.si, _3v.cfe, _3v.cfs, _3v.si, _3y.cfe, _3y.cfs, _3y.si, _3z.cfe, _3z.cfs, _3z.si, _40.cfe, _40.cfs, _40.si, _41.cfe, _41.cfs, _41.si, _42.cfe, _42.cfs, _42.si, _b.fdt, _b.fdx, _b.fnm, _b.nvd, _b.nvm, _b.si, _b.tvd, _b.tvx, _b_Lucene41_0.doc, _b_Lucene41_0.pay, _b_Lucene41_0.pos, _b_Lucene41_0.tim, _b_Lucene41_0.tip, _n.fdt, _n.fdx, _n.fnm, _n.nvd, _n.nvm, _n.si, _n.tvd, _n.tvx, _n_Lucene41_0.doc, _n_Lucene41_0.pay, _n_Lucene41_0.pos, _n_Lucene41_0.tim, _n_Lucene41_0.tip, _x.fdt, _x.fdx, _x.fnm, _x.nvd, _x.nvm, _x.si, _x.tvd, _x.tvx, _x_Lucene41_0.doc, _x_Lucene41_0.pay, _x_Lucene41_0.pos, _x_Lucene41_0.tim, _x_Lucene41_0.tip]
+Sep 08, 2016 2:48:46 PM com.sun.faces.context.ExceptionHandlerImpl log
+1100: #{searchBean.search}: org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.apache.lucene.store.MMapDirectory@D:\CS570Project\IndexTFIDF lockFactory=org.apache.lucene.store.NativeFSLockFactory@3445e272: files: [write.lock, _18.fdt, _18.fdx, _18.fnm, _18.nvd, _18.nvm, _18.si, _18.tvd, _18.tvx, _18_Lucene41_0.doc, _18_Lucene41_0.pay, _18_Lucene41_0.pos, _18_Lucene41_0.tim, _18_Lucene41_0.tip, _1j.fdt, _1j.fdx, _1j.fnm, _1j.nvd, _1j.nvm, _1j.si, _1j.tvd, _1j.tvx, _1j_Lucene41_0.doc, _1j_Lucene41_0.pay, _1j_Lucene41_0.pos, _1j_Lucene41_0.tim, _1j_Lucene41_0.tip, _1u.fdt, _1u.fdx, _1u.fnm, _1u.nvd, _1u.nvm, _1u.si, _1u.tvd, _1u.tvx, _1u_Lucene41_0.doc, _1u_Lucene41_0.pay, _1u_Lucene41_0.pos, _1u_Lucene41_0.tim, _1u_Lucene41_0.tip, _26.fdt, _26.fdx, _26.fnm, _26.nvd, _26.nvm, _26.si, _26.tvd, _26.tvx, _26_Lucene41_0.doc, _26_Lucene41_0.pay, _26_Lucene41_0.pos, _26_Lucene41_0.tim, _26_Lucene41_0.tip, _2g.fdt, _2g.fdx, _2g.fnm, _2g.nvd, _2g.nvm, _2g.si, _2g.tvd, _2g.tvx, _2g_Lucene41_0.doc, _2g_Lucene41_0.pay, _2g_Lucene41_0.pos, _2g_Lucene41_0.tim, _2g_Lucene41_0.tip, _2r.fdt, _2r.fdx, _2r.fnm, _2r.nvd, _2r.nvm, _2r.si, _2r.tvd, _2r.tvx, _2r_Lucene41_0.doc, _2r_Lucene41_0.pay, _2r_Lucene41_0.pos, _2r_Lucene41_0.tim, _2r_Lucene41_0.tip, _32.cfe, _32.cfs, _32.si, _3c.cfe, _3c.cfs, _3c.si, _3d.cfe, _3d.cfs, _3d.si, _3e.fdt, _3e.fdx, _3e.nvd, _3e.nvm, _3e.tvd, _3e.tvx, _3e_Lucene41_0.doc, _3e_Lucene41_0.pay, _3e_Lucene41_0.pos, _3e_Lucene41_0.tim, _3e_Lucene41_0.tip, _3h.cfe, _3h.cfs, _3h.si, _3i.cfe, _3i.cfs, _3i.si, _3j.cfe, _3j.cfs, _3j.si, _3l.cfe, _3l.cfs, _3l.si, _3o.cfe, _3o.cfs, _3o.si, _3p.cfe, _3p.cfs, _3p.si, _3q.cfe, _3q.cfs, _3q.si, _3s.cfe, _3s.cfs, _3s.si, _3v.cfe, _3v.cfs, _3v.si, _3y.cfe, _3y.cfs, _3y.si, _3z.cfe, _3z.cfs, _3z.si, _40.cfe, _40.cfs, _40.si, _41.cfe, _41.cfs, _41.si, _42.cfe, _42.cfs, _42.si, _b.fdt, _b.fdx, _b.fnm, _b.nvd, _b.nvm, _b.si, _b.tvd, _b.tvx, _b_Lucene41_0.doc, _b_Lucene41_0.pay, _b_Lucene41_0.pos, _b_Lucene41_0.tim, _b_Lucene41_0.tip, _n.fdt, _n.fdx, _n.fnm, _n.nvd, _n.nvm, _n.si, _n.tvd, _n.tvx, _n_Lucene41_0.doc, _n_Lucene41_0.pay, _n_Lucene41_0.pos, _n_Lucene41_0.tim, _n_Lucene41_0.tip, _x.fdt, _x.fdx, _x.fnm, _x.nvd, _x.nvm, _x.si, _x.tvd, _x.tvx, _x_Lucene41_0.doc, _x_Lucene41_0.pay, _x_Lucene41_0.pos, _x_Lucene41_0.tim, _x_Lucene41_0.tip]
+javax.faces.FacesException: #{searchBean.search}: org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.apache.lucene.store.MMapDirectory@D:\CS570Project\IndexTFIDF lockFactory=org.apache.lucene.store.NativeFSLockFactory@3445e272: files: [write.lock, _18.fdt, _18.fdx, _18.fnm, _18.nvd, _18.nvm, _18.si, _18.tvd, _18.tvx, _18_Lucene41_0.doc, _18_Lucene41_0.pay, _18_Lucene41_0.pos, _18_Lucene41_0.tim, _18_Lucene41_0.tip, _1j.fdt, _1j.fdx, _1j.fnm, _1j.nvd, _1j.nvm, _1j.si, _1j.tvd, _1j.tvx, _1j_Lucene41_0.doc, _1j_Lucene41_0.pay, _1j_Lucene41_0.pos, _1j_Lucene41_0.tim, _1j_Lucene41_0.tip, _1u.fdt, _1u.fdx, _1u.fnm, _1u.nvd, _1u.nvm, _1u.si, _1u.tvd, _1u.tvx, _1u_Lucene41_0.doc, _1u_Lucene41_0.pay, _1u_Lucene41_0.pos, _1u_Lucene41_0.tim, _1u_Lucene41_0.tip, _26.fdt, _26.fdx, _26.fnm, _26.nvd, _26.nvm, _26.si, _26.tvd, _26.tvx, _26_Lucene41_0.doc, _26_Lucene41_0.pay, _26_Lucene41_0.pos, _26_Lucene41_0.tim, _26_Lucene41_0.tip, _2g.fdt, _2g.fdx, _2g.fnm, _2g.nvd, _2g.nvm, _2g.si, _2g.tvd, _2g.tvx, _2g_Lucene41_0.doc, _2g_Lucene41_0.pay, _2g_Lucene41_0.pos, _2g_Lucene41_0.tim, _2g_Lucene41_0.tip, _2r.fdt, _2r.fdx, _2r.fnm, _2r.nvd, _2r.nvm, _2r.si, _2r.tvd, _2r.tvx, _2r_Lucene41_0.doc, _2r_Lucene41_0.pay, _2r_Lucene41_0.pos, _2r_Lucene41_0.tim, _2r_Lucene41_0.tip, _32.cfe, _32.cfs, _32.si, _3c.cfe, _3c.cfs, _3c.si, _3d.cfe, _3d.cfs, _3d.si, _3e.fdt, _3e.fdx, _3e.nvd, _3e.nvm, _3e.tvd, _3e.tvx, _3e_Lucene41_0.doc, _3e_Lucene41_0.pay, _3e_Lucene41_0.pos, _3e_Lucene41_0.tim, _3e_Lucene41_0.tip, _3h.cfe, _3h.cfs, _3h.si, _3i.cfe, _3i.cfs, _3i.si, _3j.cfe, _3j.cfs, _3j.si, _3l.cfe, _3l.cfs, _3l.si, _3o.cfe, _3o.cfs, _3o.si, _3p.cfe, _3p.cfs, _3p.si, _3q.cfe, _3q.cfs, _3q.si, _3s.cfe, _3s.cfs, _3s.si, _3v.cfe, _3v.cfs, _3v.si, _3y.cfe, _3y.cfs, _3y.si, _3z.cfe, _3z.cfs, _3z.si, _40.cfe, _40.cfs, _40.si, _41.cfe, _41.cfs, _41.si, _42.cfe, _42.cfs, _42.si, _b.fdt, _b.fdx, _b.fnm, _b.nvd, _b.nvm, _b.si, _b.tvd, _b.tvx, _b_Lucene41_0.doc, _b_Lucene41_0.pay, _b_Lucene41_0.pos, _b_Lucene41_0.tim, _b_Lucene41_0.tip, _n.fdt, _n.fdx, _n.fnm, _n.nvd, _n.nvm, _n.si, _n.tvd, _n.tvx, _n_Lucene41_0.doc, _n_Lucene41_0.pay, _n_Lucene41_0.pos, _n_Lucene41_0.tim, _n_Lucene41_0.tip, _x.fdt, _x.fdx, _x.fnm, _x.nvd, _x.nvm, _x.si, _x.tvd, _x.tvx, _x_Lucene41_0.doc, _x_Lucene41_0.pay, _x_Lucene41_0.pos, _x_Lucene41_0.tim, _x_Lucene41_0.tip]
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:89)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:442)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1082)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:623)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.faces.FacesException: #{searchBean.search}: org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.apache.lucene.store.MMapDirectory@D:\CS570Project\IndexTFIDF lockFactory=org.apache.lucene.store.NativeFSLockFactory@3445e272: files: [write.lock, _18.fdt, _18.fdx, _18.fnm, _18.nvd, _18.nvm, _18.si, _18.tvd, _18.tvx, _18_Lucene41_0.doc, _18_Lucene41_0.pay, _18_Lucene41_0.pos, _18_Lucene41_0.tim, _18_Lucene41_0.tip, _1j.fdt, _1j.fdx, _1j.fnm, _1j.nvd, _1j.nvm, _1j.si, _1j.tvd, _1j.tvx, _1j_Lucene41_0.doc, _1j_Lucene41_0.pay, _1j_Lucene41_0.pos, _1j_Lucene41_0.tim, _1j_Lucene41_0.tip, _1u.fdt, _1u.fdx, _1u.fnm, _1u.nvd, _1u.nvm, _1u.si, _1u.tvd, _1u.tvx, _1u_Lucene41_0.doc, _1u_Lucene41_0.pay, _1u_Lucene41_0.pos, _1u_Lucene41_0.tim, _1u_Lucene41_0.tip, _26.fdt, _26.fdx, _26.fnm, _26.nvd, _26.nvm, _26.si, _26.tvd, _26.tvx, _26_Lucene41_0.doc, _26_Lucene41_0.pay, _26_Lucene41_0.pos, _26_Lucene41_0.tim, _26_Lucene41_0.tip, _2g.fdt, _2g.fdx, _2g.fnm, _2g.nvd, _2g.nvm, _2g.si, _2g.tvd, _2g.tvx, _2g_Lucene41_0.doc, _2g_Lucene41_0.pay, _2g_Lucene41_0.pos, _2g_Lucene41_0.tim, _2g_Lucene41_0.tip, _2r.fdt, _2r.fdx, _2r.fnm, _2r.nvd, _2r.nvm, _2r.si, _2r.tvd, _2r.tvx, _2r_Lucene41_0.doc, _2r_Lucene41_0.pay, _2r_Lucene41_0.pos, _2r_Lucene41_0.tim, _2r_Lucene41_0.tip, _32.cfe, _32.cfs, _32.si, _3c.cfe, _3c.cfs, _3c.si, _3d.cfe, _3d.cfs, _3d.si, _3e.fdt, _3e.fdx, _3e.nvd, _3e.nvm, _3e.tvd, _3e.tvx, _3e_Lucene41_0.doc, _3e_Lucene41_0.pay, _3e_Lucene41_0.pos, _3e_Lucene41_0.tim, _3e_Lucene41_0.tip, _3h.cfe, _3h.cfs, _3h.si, _3i.cfe, _3i.cfs, _3i.si, _3j.cfe, _3j.cfs, _3j.si, _3l.cfe, _3l.cfs, _3l.si, _3o.cfe, _3o.cfs, _3o.si, _3p.cfe, _3p.cfs, _3p.si, _3q.cfe, _3q.cfs, _3q.si, _3s.cfe, _3s.cfs, _3s.si, _3v.cfe, _3v.cfs, _3v.si, _3y.cfe, _3y.cfs, _3y.si, _3z.cfe, _3z.cfs, _3z.si, _40.cfe, _40.cfs, _40.si, _41.cfe, _41.cfs, _41.si, _42.cfe, _42.cfs, _42.si, _b.fdt, _b.fdx, _b.fnm, _b.nvd, _b.nvm, _b.si, _b.tvd, _b.tvx, _b_Lucene41_0.doc, _b_Lucene41_0.pay, _b_Lucene41_0.pos, _b_Lucene41_0.tim, _b_Lucene41_0.tip, _n.fdt, _n.fdx, _n.fnm, _n.nvd, _n.nvm, _n.si, _n.tvd, _n.tvx, _n_Lucene41_0.doc, _n_Lucene41_0.pay, _n_Lucene41_0.pos, _n_Lucene41_0.tim, _n_Lucene41_0.tip, _x.fdt, _x.fdx, _x.fnm, _x.nvd, _x.nvm, _x.si, _x.tvd, _x.tvx, _x_Lucene41_0.doc, _x_Lucene41_0.pay, _x_Lucene41_0.pos, _x_Lucene41_0.tim, _x_Lucene41_0.tip]
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:118)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	... 24 more
+Caused by: javax.faces.el.EvaluationException: org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.apache.lucene.store.MMapDirectory@D:\CS570Project\IndexTFIDF lockFactory=org.apache.lucene.store.NativeFSLockFactory@3445e272: files: [write.lock, _18.fdt, _18.fdx, _18.fnm, _18.nvd, _18.nvm, _18.si, _18.tvd, _18.tvx, _18_Lucene41_0.doc, _18_Lucene41_0.pay, _18_Lucene41_0.pos, _18_Lucene41_0.tim, _18_Lucene41_0.tip, _1j.fdt, _1j.fdx, _1j.fnm, _1j.nvd, _1j.nvm, _1j.si, _1j.tvd, _1j.tvx, _1j_Lucene41_0.doc, _1j_Lucene41_0.pay, _1j_Lucene41_0.pos, _1j_Lucene41_0.tim, _1j_Lucene41_0.tip, _1u.fdt, _1u.fdx, _1u.fnm, _1u.nvd, _1u.nvm, _1u.si, _1u.tvd, _1u.tvx, _1u_Lucene41_0.doc, _1u_Lucene41_0.pay, _1u_Lucene41_0.pos, _1u_Lucene41_0.tim, _1u_Lucene41_0.tip, _26.fdt, _26.fdx, _26.fnm, _26.nvd, _26.nvm, _26.si, _26.tvd, _26.tvx, _26_Lucene41_0.doc, _26_Lucene41_0.pay, _26_Lucene41_0.pos, _26_Lucene41_0.tim, _26_Lucene41_0.tip, _2g.fdt, _2g.fdx, _2g.fnm, _2g.nvd, _2g.nvm, _2g.si, _2g.tvd, _2g.tvx, _2g_Lucene41_0.doc, _2g_Lucene41_0.pay, _2g_Lucene41_0.pos, _2g_Lucene41_0.tim, _2g_Lucene41_0.tip, _2r.fdt, _2r.fdx, _2r.fnm, _2r.nvd, _2r.nvm, _2r.si, _2r.tvd, _2r.tvx, _2r_Lucene41_0.doc, _2r_Lucene41_0.pay, _2r_Lucene41_0.pos, _2r_Lucene41_0.tim, _2r_Lucene41_0.tip, _32.cfe, _32.cfs, _32.si, _3c.cfe, _3c.cfs, _3c.si, _3d.cfe, _3d.cfs, _3d.si, _3e.fdt, _3e.fdx, _3e.nvd, _3e.nvm, _3e.tvd, _3e.tvx, _3e_Lucene41_0.doc, _3e_Lucene41_0.pay, _3e_Lucene41_0.pos, _3e_Lucene41_0.tim, _3e_Lucene41_0.tip, _3h.cfe, _3h.cfs, _3h.si, _3i.cfe, _3i.cfs, _3i.si, _3j.cfe, _3j.cfs, _3j.si, _3l.cfe, _3l.cfs, _3l.si, _3o.cfe, _3o.cfs, _3o.si, _3p.cfe, _3p.cfs, _3p.si, _3q.cfe, _3q.cfs, _3q.si, _3s.cfe, _3s.cfs, _3s.si, _3v.cfe, _3v.cfs, _3v.si, _3y.cfe, _3y.cfs, _3y.si, _3z.cfe, _3z.cfs, _3z.si, _40.cfe, _40.cfs, _40.si, _41.cfe, _41.cfs, _41.si, _42.cfe, _42.cfs, _42.si, _b.fdt, _b.fdx, _b.fnm, _b.nvd, _b.nvm, _b.si, _b.tvd, _b.tvx, _b_Lucene41_0.doc, _b_Lucene41_0.pay, _b_Lucene41_0.pos, _b_Lucene41_0.tim, _b_Lucene41_0.tip, _n.fdt, _n.fdx, _n.fnm, _n.nvd, _n.nvm, _n.si, _n.tvd, _n.tvx, _n_Lucene41_0.doc, _n_Lucene41_0.pay, _n_Lucene41_0.pos, _n_Lucene41_0.tim, _n_Lucene41_0.tip, _x.fdt, _x.fdx, _x.fnm, _x.nvd, _x.nvm, _x.si, _x.tvd, _x.tvx, _x_Lucene41_0.doc, _x_Lucene41_0.pay, _x_Lucene41_0.pos, _x_Lucene41_0.tim, _x_Lucene41_0.tip]
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:101)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	... 28 more
+Caused by: org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.apache.lucene.store.MMapDirectory@D:\CS570Project\IndexTFIDF lockFactory=org.apache.lucene.store.NativeFSLockFactory@3445e272: files: [write.lock, _18.fdt, _18.fdx, _18.fnm, _18.nvd, _18.nvm, _18.si, _18.tvd, _18.tvx, _18_Lucene41_0.doc, _18_Lucene41_0.pay, _18_Lucene41_0.pos, _18_Lucene41_0.tim, _18_Lucene41_0.tip, _1j.fdt, _1j.fdx, _1j.fnm, _1j.nvd, _1j.nvm, _1j.si, _1j.tvd, _1j.tvx, _1j_Lucene41_0.doc, _1j_Lucene41_0.pay, _1j_Lucene41_0.pos, _1j_Lucene41_0.tim, _1j_Lucene41_0.tip, _1u.fdt, _1u.fdx, _1u.fnm, _1u.nvd, _1u.nvm, _1u.si, _1u.tvd, _1u.tvx, _1u_Lucene41_0.doc, _1u_Lucene41_0.pay, _1u_Lucene41_0.pos, _1u_Lucene41_0.tim, _1u_Lucene41_0.tip, _26.fdt, _26.fdx, _26.fnm, _26.nvd, _26.nvm, _26.si, _26.tvd, _26.tvx, _26_Lucene41_0.doc, _26_Lucene41_0.pay, _26_Lucene41_0.pos, _26_Lucene41_0.tim, _26_Lucene41_0.tip, _2g.fdt, _2g.fdx, _2g.fnm, _2g.nvd, _2g.nvm, _2g.si, _2g.tvd, _2g.tvx, _2g_Lucene41_0.doc, _2g_Lucene41_0.pay, _2g_Lucene41_0.pos, _2g_Lucene41_0.tim, _2g_Lucene41_0.tip, _2r.fdt, _2r.fdx, _2r.fnm, _2r.nvd, _2r.nvm, _2r.si, _2r.tvd, _2r.tvx, _2r_Lucene41_0.doc, _2r_Lucene41_0.pay, _2r_Lucene41_0.pos, _2r_Lucene41_0.tim, _2r_Lucene41_0.tip, _32.cfe, _32.cfs, _32.si, _3c.cfe, _3c.cfs, _3c.si, _3d.cfe, _3d.cfs, _3d.si, _3e.fdt, _3e.fdx, _3e.nvd, _3e.nvm, _3e.tvd, _3e.tvx, _3e_Lucene41_0.doc, _3e_Lucene41_0.pay, _3e_Lucene41_0.pos, _3e_Lucene41_0.tim, _3e_Lucene41_0.tip, _3h.cfe, _3h.cfs, _3h.si, _3i.cfe, _3i.cfs, _3i.si, _3j.cfe, _3j.cfs, _3j.si, _3l.cfe, _3l.cfs, _3l.si, _3o.cfe, _3o.cfs, _3o.si, _3p.cfe, _3p.cfs, _3p.si, _3q.cfe, _3q.cfs, _3q.si, _3s.cfe, _3s.cfs, _3s.si, _3v.cfe, _3v.cfs, _3v.si, _3y.cfe, _3y.cfs, _3y.si, _3z.cfe, _3z.cfs, _3z.si, _40.cfe, _40.cfs, _40.si, _41.cfe, _41.cfs, _41.si, _42.cfe, _42.cfs, _42.si, _b.fdt, _b.fdx, _b.fnm, _b.nvd, _b.nvm, _b.si, _b.tvd, _b.tvx, _b_Lucene41_0.doc, _b_Lucene41_0.pay, _b_Lucene41_0.pos, _b_Lucene41_0.tim, _b_Lucene41_0.tip, _n.fdt, _n.fdx, _n.fnm, _n.nvd, _n.nvm, _n.si, _n.tvd, _n.tvx, _n_Lucene41_0.doc, _n_Lucene41_0.pay, _n_Lucene41_0.pos, _n_Lucene41_0.tim, _n_Lucene41_0.tip, _x.fdt, _x.fdx, _x.fnm, _x.nvd, _x.nvm, _x.si, _x.tvd, _x.tvx, _x_Lucene41_0.doc, _x_Lucene41_0.pay, _x_Lucene41_0.pos, _x_Lucene41_0.tim, _x_Lucene41_0.tip]
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:741)
+	at org.apache.lucene.index.StandardDirectoryReader.open(StandardDirectoryReader.java:52)
+	at org.apache.lucene.index.DirectoryReader.open(DirectoryReader.java:66)
+	at iit.cs570.assign1.web.managedbean.TFIDFSearcher.<init>(TFIDFSearcher.java:47)
+	at iit.cs570.assign1.web.managedbean.SearchBean.search(SearchBean.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:279)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:273)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	... 29 more
+
+Sep 08, 2016 2:49:29 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Sep 08, 2016 2:49:29 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Sep 08, 2016 2:49:29 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 08, 2016 2:49:45 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Sep 08, 2016 2:49:45 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Sep 08, 2016 2:49:45 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+Sep 08, 2016 2:49:45 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+Sep 08, 2016 2:52:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.70
+Sep 08, 2016 2:52:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jun 15 2016 16:27:45 UTC
+Sep 08, 2016 2:52:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.70.0
+Sep 08, 2016 2:52:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 7
+Sep 08, 2016 2:52:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1
+Sep 08, 2016 2:52:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Sep 08, 2016 2:52:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_102\jre
+Sep 08, 2016 2:52:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_102-b14
+Sep 08, 2016 2:52:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Sep 08, 2016 2:52:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\CS570Project\apache-tomcat-7.0.70
+Sep 08, 2016 2:52:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\CS570Project\apache-tomcat-7.0.70
+Sep 08, 2016 2:52:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Sep 08, 2016 2:52:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\CS570Project\apache-tomcat-7.0.70\conf\logging.properties
+Sep 08, 2016 2:52:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Sep 08, 2016 2:52:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=D:\CS570Project\apache-tomcat-7.0.70\endorsed
+Sep 08, 2016 2:52:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\CS570Project\apache-tomcat-7.0.70
+Sep 08, 2016 2:52:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\CS570Project\apache-tomcat-7.0.70
+Sep 08, 2016 2:52:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\CS570Project\apache-tomcat-7.0.70\temp
+Sep 08, 2016 2:52:46 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.7 using APR version 1.5.2.
+Sep 08, 2016 2:52:46 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Sep 08, 2016 2:52:46 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.2h  3 May 2016)
+Sep 08, 2016 2:52:47 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Sep 08, 2016 2:52:47 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Sep 08, 2016 2:52:47 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1946 ms
+Sep 08, 2016 2:52:47 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 08, 2016 2:52:47 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.70
+Sep 08, 2016 2:55:23 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [795] milliseconds.
+Sep 08, 2016 2:55:23 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersIndexer.war
+Sep 08, 2016 2:55:24 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersIndexer'
+Sep 08, 2016 2:55:25 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 08, 2016 2:55:25 PM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersIndexer/WEB-INF/faces-config.xml for modifications
+Sep 08, 2016 2:55:25 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersIndexer.war has finished in 2,481 ms
+Sep 08, 2016 2:55:26 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war
+Sep 08, 2016 2:55:29 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 08, 2016 2:55:29 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersSearchEngine'
+Sep 08, 2016 2:55:29 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 08, 2016 2:55:29 PM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersSearchEngine/WEB-INF/faces-config.xml for modifications
+Sep 08, 2016 2:55:29 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war has finished in 3,933 ms
+Sep 08, 2016 2:55:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\examples
+Sep 08, 2016 2:55:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\examples has finished in 1,029 ms
+Sep 08, 2016 2:55:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\host-manager
+Sep 08, 2016 2:55:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\host-manager has finished in 78 ms
+Sep 08, 2016 2:55:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\manager
+Sep 08, 2016 2:55:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\manager has finished in 78 ms
+Sep 08, 2016 2:55:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\ROOT
+Sep 08, 2016 2:55:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\ROOT has finished in 47 ms
+Sep 08, 2016 2:55:31 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Sep 08, 2016 2:55:31 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Sep 08, 2016 2:55:31 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 163979 ms
+Sep 08, 2016 2:55:47 PM com.sun.faces.lifecycle.InvokeApplicationPhase execute
+WARNING: #{searchBean.search}: java.lang.NullPointerException
+javax.faces.FacesException: #{searchBean.search}: java.lang.NullPointerException
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:118)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:442)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1082)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:623)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.faces.el.EvaluationException: java.lang.NullPointerException
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:101)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	... 28 more
+Caused by: java.lang.NullPointerException
+	at java.io.StringReader.<init>(StringReader.java:50)
+	at org.apache.lucene.search.highlight.Highlighter.getBestFragment(Highlighter.java:81)
+	at iit.cs570.assign1.web.managedbean.TFIDFSearcher.getBestFragment(TFIDFSearcher.java:80)
+	at iit.cs570.assign1.web.managedbean.SearchBean.search(SearchBean.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:279)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:273)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	... 29 more
+
+Sep 08, 2016 2:55:47 PM com.sun.faces.context.ExceptionHandlerImpl log
+1100: JSF1073: javax.faces.FacesException caught during processing of INVOKE_APPLICATION 5 : UIComponent-ClientId=, Message=#{searchBean.search}: java.lang.NullPointerException
+Sep 08, 2016 2:55:47 PM com.sun.faces.context.ExceptionHandlerImpl log
+1100: #{searchBean.search}: java.lang.NullPointerException
+javax.faces.FacesException: #{searchBean.search}: java.lang.NullPointerException
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:89)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:442)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1082)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:623)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.faces.FacesException: #{searchBean.search}: java.lang.NullPointerException
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:118)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	... 24 more
+Caused by: javax.faces.el.EvaluationException: java.lang.NullPointerException
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:101)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	... 28 more
+Caused by: java.lang.NullPointerException
+	at java.io.StringReader.<init>(StringReader.java:50)
+	at org.apache.lucene.search.highlight.Highlighter.getBestFragment(Highlighter.java:81)
+	at iit.cs570.assign1.web.managedbean.TFIDFSearcher.getBestFragment(TFIDFSearcher.java:80)
+	at iit.cs570.assign1.web.managedbean.SearchBean.search(SearchBean.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:279)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:273)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	... 29 more
+
+Sep 08, 2016 2:56:59 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/TheCrawlersSearchEngine]
+Sep 08, 2016 2:57:14 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war
+Sep 08, 2016 2:57:15 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 08, 2016 2:57:15 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersSearchEngine'
+Sep 08, 2016 2:57:15 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 08, 2016 2:57:16 PM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersSearchEngine/WEB-INF/faces-config.xml for modifications
+Sep 08, 2016 2:57:16 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war has finished in 1,867 ms
+Sep 08, 2016 2:57:23 PM com.sun.faces.lifecycle.InvokeApplicationPhase execute
+WARNING: #{searchBean.search}: java.lang.NullPointerException
+javax.faces.FacesException: #{searchBean.search}: java.lang.NullPointerException
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:118)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:442)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1082)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:623)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.faces.el.EvaluationException: java.lang.NullPointerException
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:101)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	... 28 more
+Caused by: java.lang.NullPointerException
+	at java.io.StringReader.<init>(StringReader.java:50)
+	at org.apache.lucene.search.highlight.Highlighter.getBestFragment(Highlighter.java:81)
+	at iit.cs570.assign1.web.managedbean.TFIDFSearcher.getBestFragment(TFIDFSearcher.java:80)
+	at iit.cs570.assign1.web.managedbean.SearchBean.search(SearchBean.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:279)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:273)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	... 29 more
+
+Sep 08, 2016 2:57:23 PM com.sun.faces.context.ExceptionHandlerImpl log
+1100: JSF1073: javax.faces.FacesException caught during processing of INVOKE_APPLICATION 5 : UIComponent-ClientId=, Message=#{searchBean.search}: java.lang.NullPointerException
+Sep 08, 2016 2:57:23 PM com.sun.faces.context.ExceptionHandlerImpl log
+1100: #{searchBean.search}: java.lang.NullPointerException
+javax.faces.FacesException: #{searchBean.search}: java.lang.NullPointerException
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:89)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:442)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1082)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:623)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.faces.FacesException: #{searchBean.search}: java.lang.NullPointerException
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:118)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	... 24 more
+Caused by: javax.faces.el.EvaluationException: java.lang.NullPointerException
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:101)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	... 28 more
+Caused by: java.lang.NullPointerException
+	at java.io.StringReader.<init>(StringReader.java:50)
+	at org.apache.lucene.search.highlight.Highlighter.getBestFragment(Highlighter.java:81)
+	at iit.cs570.assign1.web.managedbean.TFIDFSearcher.getBestFragment(TFIDFSearcher.java:80)
+	at iit.cs570.assign1.web.managedbean.SearchBean.search(SearchBean.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:279)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:273)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	... 29 more
+
+Sep 08, 2016 3:00:29 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/TheCrawlersSearchEngine]
+Sep 08, 2016 3:00:33 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war
+Sep 08, 2016 3:00:34 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 08, 2016 3:00:34 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersSearchEngine'
+Sep 08, 2016 3:00:34 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 08, 2016 3:00:35 PM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersSearchEngine/WEB-INF/faces-config.xml for modifications
+Sep 08, 2016 3:00:35 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war has finished in 1,636 ms
+Sep 08, 2016 3:04:58 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/TheCrawlersSearchEngine]
+Sep 08, 2016 3:05:04 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war
+Sep 08, 2016 3:05:05 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 08, 2016 3:05:05 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersSearchEngine'
+Sep 08, 2016 3:05:05 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 08, 2016 3:05:05 PM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersSearchEngine/WEB-INF/faces-config.xml for modifications
+Sep 08, 2016 3:05:06 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war has finished in 1,363 ms
+Sep 08, 2016 3:06:41 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/TheCrawlersSearchEngine]
+Sep 08, 2016 3:06:45 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war
+Sep 08, 2016 3:06:46 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 08, 2016 3:06:46 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersSearchEngine'
+Sep 08, 2016 3:06:46 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 08, 2016 3:06:47 PM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersSearchEngine/WEB-INF/faces-config.xml for modifications
+Sep 08, 2016 3:06:47 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war has finished in 1,331 ms
+Sep 08, 2016 3:47:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.70
+Sep 08, 2016 3:47:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jun 15 2016 16:27:45 UTC
+Sep 08, 2016 3:47:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.70.0
+Sep 08, 2016 3:47:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 7
+Sep 08, 2016 3:47:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1
+Sep 08, 2016 3:47:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Sep 08, 2016 3:47:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_102\jre
+Sep 08, 2016 3:47:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_102-b14
+Sep 08, 2016 3:47:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Sep 08, 2016 3:47:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\CS570Project\apache-tomcat-7.0.70
+Sep 08, 2016 3:47:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\CS570Project\apache-tomcat-7.0.70
+Sep 08, 2016 3:47:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Sep 08, 2016 3:47:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\CS570Project\apache-tomcat-7.0.70\conf\logging.properties
+Sep 08, 2016 3:47:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Sep 08, 2016 3:47:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=D:\CS570Project\apache-tomcat-7.0.70\endorsed
+Sep 08, 2016 3:47:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\CS570Project\apache-tomcat-7.0.70
+Sep 08, 2016 3:47:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\CS570Project\apache-tomcat-7.0.70
+Sep 08, 2016 3:47:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\CS570Project\apache-tomcat-7.0.70\temp
+Sep 08, 2016 3:47:13 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.7 using APR version 1.5.2.
+Sep 08, 2016 3:47:13 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Sep 08, 2016 3:47:14 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.2h  3 May 2016)
+Sep 08, 2016 3:47:15 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Sep 08, 2016 3:47:15 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Sep 08, 2016 3:47:15 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2822 ms
+Sep 08, 2016 3:47:15 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 08, 2016 3:47:15 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.70
+Sep 08, 2016 3:49:32 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [238] milliseconds.
+Sep 08, 2016 3:49:32 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersIndexer.war
+Sep 08, 2016 3:49:33 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersIndexer'
+Sep 08, 2016 3:49:33 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 08, 2016 3:49:34 PM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersIndexer/WEB-INF/faces-config.xml for modifications
+Sep 08, 2016 3:49:34 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersIndexer.war has finished in 2,439 ms
+Sep 08, 2016 3:49:34 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war
+Sep 08, 2016 3:49:37 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 08, 2016 3:49:37 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersSearchEngine'
+Sep 08, 2016 3:49:37 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 08, 2016 3:49:38 PM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersSearchEngine/WEB-INF/faces-config.xml for modifications
+Sep 08, 2016 3:49:38 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war has finished in 3,297 ms
+Sep 08, 2016 3:49:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\examples
+Sep 08, 2016 3:49:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\examples has finished in 2,018 ms
+Sep 08, 2016 3:49:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\host-manager
+Sep 08, 2016 3:49:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\host-manager has finished in 66 ms
+Sep 08, 2016 3:49:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\manager
+Sep 08, 2016 3:49:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\manager has finished in 60 ms
+Sep 08, 2016 3:49:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\ROOT
+Sep 08, 2016 3:49:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\ROOT has finished in 131 ms
+Sep 08, 2016 3:49:40 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Sep 08, 2016 3:49:40 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Sep 08, 2016 3:49:40 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 145316 ms
+Sep 08, 2016 5:47:20 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Sep 08, 2016 5:47:23 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Sep 08, 2016 5:47:23 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 08, 2016 5:48:29 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Sep 08, 2016 5:48:30 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Sep 08, 2016 5:48:30 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+Sep 08, 2016 5:48:30 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+Sep 08, 2016 6:06:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.70
+Sep 08, 2016 6:06:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jun 15 2016 16:27:45 UTC
+Sep 08, 2016 6:06:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.70.0
+Sep 08, 2016 6:06:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 7
+Sep 08, 2016 6:06:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1
+Sep 08, 2016 6:06:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Sep 08, 2016 6:06:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_102\jre
+Sep 08, 2016 6:06:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_102-b14
+Sep 08, 2016 6:06:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Sep 08, 2016 6:06:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\CS570Project\apache-tomcat-7.0.70
+Sep 08, 2016 6:06:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\CS570Project\apache-tomcat-7.0.70
+Sep 08, 2016 6:06:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Sep 08, 2016 6:06:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\CS570Project\apache-tomcat-7.0.70\conf\logging.properties
+Sep 08, 2016 6:06:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Sep 08, 2016 6:06:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=D:\CS570Project\apache-tomcat-7.0.70\endorsed
+Sep 08, 2016 6:06:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\CS570Project\apache-tomcat-7.0.70
+Sep 08, 2016 6:06:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\CS570Project\apache-tomcat-7.0.70
+Sep 08, 2016 6:06:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\CS570Project\apache-tomcat-7.0.70\temp
+Sep 08, 2016 6:06:42 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.7 using APR version 1.5.2.
+Sep 08, 2016 6:06:42 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Sep 08, 2016 6:06:42 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.2h  3 May 2016)
+Sep 08, 2016 6:06:43 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Sep 08, 2016 6:06:43 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Sep 08, 2016 6:06:43 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1945 ms
+Sep 08, 2016 6:06:43 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 08, 2016 6:06:43 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.70
+Sep 08, 2016 6:06:44 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersIndexer.war
+Sep 08, 2016 6:06:45 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersIndexer'
+Sep 08, 2016 6:06:45 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 08, 2016 6:06:46 PM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersIndexer/WEB-INF/faces-config.xml for modifications
+Sep 08, 2016 6:06:46 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersIndexer.war has finished in 1,782 ms
+Sep 08, 2016 6:06:46 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war
+Sep 08, 2016 6:06:48 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 08, 2016 6:06:48 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersSearchEngine'
+Sep 08, 2016 6:06:48 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 08, 2016 6:06:48 PM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersSearchEngine/WEB-INF/faces-config.xml for modifications
+Sep 08, 2016 6:06:48 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war has finished in 2,730 ms
+Sep 08, 2016 6:06:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\examples
+Sep 08, 2016 6:06:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\examples has finished in 499 ms
+Sep 08, 2016 6:06:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\host-manager
+Sep 08, 2016 6:06:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\host-manager has finished in 78 ms
+Sep 08, 2016 6:06:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\manager
+Sep 08, 2016 6:06:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\manager has finished in 47 ms
+Sep 08, 2016 6:06:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\ROOT
+Sep 08, 2016 6:06:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\ROOT has finished in 32 ms
+Sep 08, 2016 6:06:49 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Sep 08, 2016 6:06:49 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Sep 08, 2016 6:06:49 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 6100 ms
+Sep 08, 2016 6:22:40 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/TheCrawlersSearchEngine]
+Sep 08, 2016 6:22:51 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war
+Sep 08, 2016 6:22:52 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 08, 2016 6:22:52 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersSearchEngine'
+Sep 08, 2016 6:22:52 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 08, 2016 6:22:53 PM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersSearchEngine/WEB-INF/faces-config.xml for modifications
+Sep 08, 2016 6:22:53 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war has finished in 1,488 ms
+Sep 08, 2016 6:22:59 PM com.sun.faces.lifecycle.InvokeApplicationPhase execute
+WARNING: #{searchBean.search}: java.lang.NullPointerException
+javax.faces.FacesException: #{searchBean.search}: java.lang.NullPointerException
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:118)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:442)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1082)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:623)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.faces.el.EvaluationException: java.lang.NullPointerException
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:101)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	... 28 more
+Caused by: java.lang.NullPointerException
+	at java.io.StringReader.<init>(StringReader.java:50)
+	at org.apache.lucene.search.highlight.Highlighter.getBestFragment(Highlighter.java:81)
+	at iit.cs570.assign1.web.managedbean.TFIDFSearcher.getBestFragment(TFIDFSearcher.java:80)
+	at iit.cs570.assign1.web.managedbean.SearchBean.search(SearchBean.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:279)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:273)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	... 29 more
+
+Sep 08, 2016 6:22:59 PM com.sun.faces.context.ExceptionHandlerImpl log
+1100: JSF1073: javax.faces.FacesException caught during processing of INVOKE_APPLICATION 5 : UIComponent-ClientId=, Message=#{searchBean.search}: java.lang.NullPointerException
+Sep 08, 2016 6:22:59 PM com.sun.faces.context.ExceptionHandlerImpl log
+1100: #{searchBean.search}: java.lang.NullPointerException
+javax.faces.FacesException: #{searchBean.search}: java.lang.NullPointerException
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:89)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:442)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1082)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:623)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.faces.FacesException: #{searchBean.search}: java.lang.NullPointerException
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:118)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	... 24 more
+Caused by: javax.faces.el.EvaluationException: java.lang.NullPointerException
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:101)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	... 28 more
+Caused by: java.lang.NullPointerException
+	at java.io.StringReader.<init>(StringReader.java:50)
+	at org.apache.lucene.search.highlight.Highlighter.getBestFragment(Highlighter.java:81)
+	at iit.cs570.assign1.web.managedbean.TFIDFSearcher.getBestFragment(TFIDFSearcher.java:80)
+	at iit.cs570.assign1.web.managedbean.SearchBean.search(SearchBean.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:279)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:273)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	... 29 more
+
+Sep 08, 2016 6:24:48 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/TheCrawlersSearchEngine]
+Sep 08, 2016 6:24:53 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war
+Sep 08, 2016 6:24:54 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 08, 2016 6:24:54 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersSearchEngine'
+Sep 08, 2016 6:24:54 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 08, 2016 6:24:54 PM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersSearchEngine/WEB-INF/faces-config.xml for modifications
+Sep 08, 2016 6:24:54 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war has finished in 1,501 ms
+Sep 08, 2016 6:30:38 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/TheCrawlersSearchEngine]
+Sep 08, 2016 6:30:42 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war
+Sep 08, 2016 6:30:43 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 08, 2016 6:30:43 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersSearchEngine'
+Sep 08, 2016 6:30:43 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 08, 2016 6:30:43 PM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersSearchEngine/WEB-INF/faces-config.xml for modifications
+Sep 08, 2016 6:30:44 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war has finished in 1,352 ms
+Sep 08, 2016 6:30:50 PM com.sun.faces.lifecycle.InvokeApplicationPhase execute
+WARNING: #{searchBean.search}: java.lang.NullPointerException
+javax.faces.FacesException: #{searchBean.search}: java.lang.NullPointerException
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:118)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:442)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1082)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:623)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.faces.el.EvaluationException: java.lang.NullPointerException
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:101)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	... 28 more
+Caused by: java.lang.NullPointerException
+	at java.io.StringReader.<init>(StringReader.java:50)
+	at org.apache.lucene.search.highlight.Highlighter.getBestFragment(Highlighter.java:81)
+	at iit.cs570.assign1.web.managedbean.SearchBean.search(SearchBean.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:279)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:273)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	... 29 more
+
+Sep 08, 2016 6:30:50 PM com.sun.faces.context.ExceptionHandlerImpl log
+1100: JSF1073: javax.faces.FacesException caught during processing of INVOKE_APPLICATION 5 : UIComponent-ClientId=, Message=#{searchBean.search}: java.lang.NullPointerException
+Sep 08, 2016 6:30:50 PM com.sun.faces.context.ExceptionHandlerImpl log
+1100: #{searchBean.search}: java.lang.NullPointerException
+javax.faces.FacesException: #{searchBean.search}: java.lang.NullPointerException
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:89)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:442)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1082)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:623)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.faces.FacesException: #{searchBean.search}: java.lang.NullPointerException
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:118)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	... 24 more
+Caused by: javax.faces.el.EvaluationException: java.lang.NullPointerException
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:101)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	... 28 more
+Caused by: java.lang.NullPointerException
+	at java.io.StringReader.<init>(StringReader.java:50)
+	at org.apache.lucene.search.highlight.Highlighter.getBestFragment(Highlighter.java:81)
+	at iit.cs570.assign1.web.managedbean.SearchBean.search(SearchBean.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:279)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:273)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	... 29 more
+
+Sep 08, 2016 6:32:47 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/TheCrawlersSearchEngine]
+Sep 08, 2016 6:32:53 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war
+Sep 08, 2016 6:32:54 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 08, 2016 6:32:54 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersSearchEngine'
+Sep 08, 2016 6:32:54 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 08, 2016 6:32:55 PM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersSearchEngine/WEB-INF/faces-config.xml for modifications
+Sep 08, 2016 6:32:55 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war has finished in 1,402 ms
+Sep 08, 2016 6:33:52 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/TheCrawlersSearchEngine]
+Sep 08, 2016 6:33:57 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war
+Sep 08, 2016 6:33:58 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 08, 2016 6:33:58 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersSearchEngine'
+Sep 08, 2016 6:33:58 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 08, 2016 6:33:58 PM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersSearchEngine/WEB-INF/faces-config.xml for modifications
+Sep 08, 2016 6:33:58 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war has finished in 1,247 ms
+Sep 08, 2016 6:35:25 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Sep 08, 2016 6:35:25 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Sep 08, 2016 6:35:25 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 08, 2016 6:35:25 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Sep 08, 2016 6:35:25 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Sep 08, 2016 6:35:25 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+Sep 08, 2016 6:35:25 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+Sep 08, 2016 6:36:10 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.70
+Sep 08, 2016 6:36:10 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jun 15 2016 16:27:45 UTC
+Sep 08, 2016 6:36:10 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.70.0
+Sep 08, 2016 6:36:10 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 7
+Sep 08, 2016 6:36:10 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1
+Sep 08, 2016 6:36:10 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Sep 08, 2016 6:36:10 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_102\jre
+Sep 08, 2016 6:36:10 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_102-b14
+Sep 08, 2016 6:36:10 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Sep 08, 2016 6:36:10 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\CS570Project\apache-tomcat-7.0.70
+Sep 08, 2016 6:36:10 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\CS570Project\apache-tomcat-7.0.70
+Sep 08, 2016 6:36:10 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Sep 08, 2016 6:36:10 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\CS570Project\apache-tomcat-7.0.70\conf\logging.properties
+Sep 08, 2016 6:36:10 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Sep 08, 2016 6:36:10 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=D:\CS570Project\apache-tomcat-7.0.70\endorsed
+Sep 08, 2016 6:36:10 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\CS570Project\apache-tomcat-7.0.70
+Sep 08, 2016 6:36:10 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\CS570Project\apache-tomcat-7.0.70
+Sep 08, 2016 6:36:10 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\CS570Project\apache-tomcat-7.0.70\temp
+Sep 08, 2016 6:36:10 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.7 using APR version 1.5.2.
+Sep 08, 2016 6:36:10 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Sep 08, 2016 6:36:11 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.2h  3 May 2016)
+Sep 08, 2016 6:36:11 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Sep 08, 2016 6:36:11 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Sep 08, 2016 6:36:11 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1388 ms
+Sep 08, 2016 6:36:11 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 08, 2016 6:36:11 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.70
+Sep 08, 2016 6:36:11 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersIndexer.war
+Sep 08, 2016 6:36:12 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersIndexer'
+Sep 08, 2016 6:36:12 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 08, 2016 6:36:13 PM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersIndexer/WEB-INF/faces-config.xml for modifications
+Sep 08, 2016 6:36:13 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersIndexer.war has finished in 1,413 ms
+Sep 08, 2016 6:36:13 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war
+Sep 08, 2016 6:36:14 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 08, 2016 6:36:14 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersSearchEngine'
+Sep 08, 2016 6:36:14 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 08, 2016 6:36:15 PM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersSearchEngine/WEB-INF/faces-config.xml for modifications
+Sep 08, 2016 6:36:15 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war has finished in 2,011 ms
+Sep 08, 2016 6:36:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\examples
+Sep 08, 2016 6:36:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\examples has finished in 558 ms
+Sep 08, 2016 6:36:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\host-manager
+Sep 08, 2016 6:36:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\host-manager has finished in 48 ms
+Sep 08, 2016 6:36:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\manager
+Sep 08, 2016 6:36:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\manager has finished in 60 ms
+Sep 08, 2016 6:36:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\ROOT
+Sep 08, 2016 6:36:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\ROOT has finished in 51 ms
+Sep 08, 2016 6:36:16 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Sep 08, 2016 6:36:16 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Sep 08, 2016 6:36:16 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4599 ms
+Sep 08, 2016 6:37:05 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/TheCrawlersSearchEngine]
+Sep 08, 2016 6:37:10 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war
+Sep 08, 2016 6:37:11 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 08, 2016 6:37:11 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersSearchEngine'
+Sep 08, 2016 6:37:11 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 08, 2016 6:37:12 PM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersSearchEngine/WEB-INF/faces-config.xml for modifications
+Sep 08, 2016 6:37:12 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war has finished in 1,941 ms
+Sep 08, 2016 6:41:03 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/TheCrawlersSearchEngine]
+Sep 08, 2016 6:41:07 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war
+Sep 08, 2016 6:41:08 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 08, 2016 6:41:08 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersSearchEngine'
+Sep 08, 2016 6:41:08 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 08, 2016 6:41:09 PM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersSearchEngine/WEB-INF/faces-config.xml for modifications
+Sep 08, 2016 6:41:09 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war has finished in 1,563 ms
+Sep 08, 2016 6:51:19 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/TheCrawlersSearchEngine]
+Sep 08, 2016 6:51:24 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war
+Sep 08, 2016 6:51:24 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 08, 2016 6:51:24 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersSearchEngine'
+Sep 08, 2016 6:51:25 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 08, 2016 6:51:25 PM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersSearchEngine/WEB-INF/faces-config.xml for modifications
+Sep 08, 2016 6:51:25 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war has finished in 1,413 ms
+Sep 08, 2016 6:52:19 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/TheCrawlersSearchEngine]
+Sep 08, 2016 6:52:26 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war
+Sep 08, 2016 6:52:27 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 08, 2016 6:52:27 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersSearchEngine'
+Sep 08, 2016 6:52:27 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 08, 2016 6:52:27 PM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersSearchEngine/WEB-INF/faces-config.xml for modifications
+Sep 08, 2016 6:52:27 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war has finished in 1,351 ms
+Sep 08, 2016 6:52:39 PM com.sun.faces.lifecycle.InvokeApplicationPhase execute
+WARNING: #{searchBean.search}: java.lang.NullPointerException
+javax.faces.FacesException: #{searchBean.search}: java.lang.NullPointerException
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:118)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:442)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1082)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:623)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.faces.el.EvaluationException: java.lang.NullPointerException
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:101)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	... 28 more
+Caused by: java.lang.NullPointerException
+	at java.io.StringReader.<init>(StringReader.java:50)
+	at org.apache.lucene.search.highlight.Highlighter.getBestFragment(Highlighter.java:81)
+	at iit.cs570.assign1.web.managedbean.BM25Searcher.getBestFragment(BM25Searcher.java:74)
+	at iit.cs570.assign1.web.managedbean.SearchBean.search(SearchBean.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:279)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:273)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	... 29 more
+
+Sep 08, 2016 6:52:39 PM com.sun.faces.context.ExceptionHandlerImpl log
+1100: JSF1073: javax.faces.FacesException caught during processing of INVOKE_APPLICATION 5 : UIComponent-ClientId=, Message=#{searchBean.search}: java.lang.NullPointerException
+Sep 08, 2016 6:52:39 PM com.sun.faces.context.ExceptionHandlerImpl log
+1100: #{searchBean.search}: java.lang.NullPointerException
+javax.faces.FacesException: #{searchBean.search}: java.lang.NullPointerException
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:89)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:442)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1082)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:623)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.faces.FacesException: #{searchBean.search}: java.lang.NullPointerException
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:118)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	... 24 more
+Caused by: javax.faces.el.EvaluationException: java.lang.NullPointerException
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:101)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	... 28 more
+Caused by: java.lang.NullPointerException
+	at java.io.StringReader.<init>(StringReader.java:50)
+	at org.apache.lucene.search.highlight.Highlighter.getBestFragment(Highlighter.java:81)
+	at iit.cs570.assign1.web.managedbean.BM25Searcher.getBestFragment(BM25Searcher.java:74)
+	at iit.cs570.assign1.web.managedbean.SearchBean.search(SearchBean.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:279)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:273)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	... 29 more
+
+Sep 08, 2016 6:56:13 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Sep 08, 2016 6:56:13 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Sep 08, 2016 6:56:13 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 08, 2016 6:56:13 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Sep 08, 2016 6:56:13 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Sep 08, 2016 6:56:13 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+Sep 08, 2016 6:56:13 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]

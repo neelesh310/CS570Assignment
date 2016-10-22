@@ -1,0 +1,545 @@
+Sep 07, 2016 10:11:31 AM com.sun.faces.context.SessionMap put
+WARNING: JSF1063: WARNING! Setting non-serializable attribute value into HttpSession (key: loginBean, value class: iit.cs570.assign1.web.bean.LoginBean).
+Sep 07, 2016 10:17:58 AM com.sun.faces.lifecycle.InvokeApplicationPhase execute
+WARNING: #{searchBean.search}: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*': '*' or '?' not allowed as first character in WildcardQuery
+javax.faces.FacesException: #{searchBean.search}: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*': '*' or '?' not allowed as first character in WildcardQuery
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:118)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:442)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1082)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:623)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.faces.el.EvaluationException: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*': '*' or '?' not allowed as first character in WildcardQuery
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:101)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	... 28 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*': '*' or '?' not allowed as first character in WildcardQuery
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:126)
+	at iit.cs570.assign1.web.managedbean.TFIDFSearcher.search(TFIDFSearcher.java:55)
+	at iit.cs570.assign1.web.managedbean.SearchBean.search(SearchBean.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:279)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:273)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	... 29 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: '*' or '?' not allowed as first character in WildcardQuery
+	at org.apache.lucene.queryparser.classic.QueryParserBase.getWildcardQuery(QueryParserBase.java:972)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.handleBareTokenQuery(QueryParserBase.java:1070)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:359)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:258)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:182)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:171)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:121)
+	... 39 more
+
+Sep 07, 2016 10:17:58 AM com.sun.faces.context.ExceptionHandlerImpl log
+1100: JSF1073: javax.faces.FacesException caught during processing of INVOKE_APPLICATION 5 : UIComponent-ClientId=, Message=#{searchBean.search}: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*': '*' or '?' not allowed as first character in WildcardQuery
+Sep 07, 2016 10:17:58 AM com.sun.faces.context.ExceptionHandlerImpl log
+1100: #{searchBean.search}: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*': '*' or '?' not allowed as first character in WildcardQuery
+javax.faces.FacesException: #{searchBean.search}: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*': '*' or '?' not allowed as first character in WildcardQuery
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:89)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:442)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1082)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:623)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.faces.FacesException: #{searchBean.search}: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*': '*' or '?' not allowed as first character in WildcardQuery
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:118)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	... 24 more
+Caused by: javax.faces.el.EvaluationException: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*': '*' or '?' not allowed as first character in WildcardQuery
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:101)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	... 28 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*': '*' or '?' not allowed as first character in WildcardQuery
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:126)
+	at iit.cs570.assign1.web.managedbean.TFIDFSearcher.search(TFIDFSearcher.java:55)
+	at iit.cs570.assign1.web.managedbean.SearchBean.search(SearchBean.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:279)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:273)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	... 29 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: '*' or '?' not allowed as first character in WildcardQuery
+	at org.apache.lucene.queryparser.classic.QueryParserBase.getWildcardQuery(QueryParserBase.java:972)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.handleBareTokenQuery(QueryParserBase.java:1070)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:359)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:258)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:182)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:171)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:121)
+	... 39 more
+
+Sep 07, 2016 10:35:38 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\FileDemo.war
+Sep 07, 2016 10:35:38 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\FileDemo.war has finished in 58 ms
+Sep 07, 2016 10:39:48 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/FileDemo]
+Sep 07, 2016 10:39:52 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\FileDemo.war
+Sep 07, 2016 10:39:52 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\FileDemo.war has finished in 80 ms
+Sep 07, 2016 10:42:59 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Sep 07, 2016 10:42:59 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Sep 07, 2016 10:42:59 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 07, 2016 10:42:59 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Sep 07, 2016 10:42:59 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Sep 07, 2016 10:42:59 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+Sep 07, 2016 10:42:59 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+Sep 07, 2016 10:46:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.70
+Sep 07, 2016 10:46:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jun 15 2016 16:27:45 UTC
+Sep 07, 2016 10:46:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.70.0
+Sep 07, 2016 10:46:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 7
+Sep 07, 2016 10:46:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1
+Sep 07, 2016 10:46:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Sep 07, 2016 10:46:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_102\jre
+Sep 07, 2016 10:46:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_102-b14
+Sep 07, 2016 10:46:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Sep 07, 2016 10:46:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\CS570Project\apache-tomcat-7.0.70
+Sep 07, 2016 10:46:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\CS570Project\apache-tomcat-7.0.70
+Sep 07, 2016 10:46:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Sep 07, 2016 10:46:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\CS570Project\apache-tomcat-7.0.70\conf\logging.properties
+Sep 07, 2016 10:46:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Sep 07, 2016 10:46:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=D:\CS570Project\apache-tomcat-7.0.70\endorsed
+Sep 07, 2016 10:46:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\CS570Project\apache-tomcat-7.0.70
+Sep 07, 2016 10:46:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\CS570Project\apache-tomcat-7.0.70
+Sep 07, 2016 10:46:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\CS570Project\apache-tomcat-7.0.70\temp
+Sep 07, 2016 10:46:34 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.7 using APR version 1.5.2.
+Sep 07, 2016 10:46:34 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Sep 07, 2016 10:46:34 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.2h  3 May 2016)
+Sep 07, 2016 10:46:35 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Sep 07, 2016 10:46:35 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Sep 07, 2016 10:46:35 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1565 ms
+Sep 07, 2016 10:46:35 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 07, 2016 10:46:35 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.70
+Sep 07, 2016 10:49:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.70
+Sep 07, 2016 10:49:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jun 15 2016 16:27:45 UTC
+Sep 07, 2016 10:49:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.70.0
+Sep 07, 2016 10:49:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 7
+Sep 07, 2016 10:49:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1
+Sep 07, 2016 10:49:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Sep 07, 2016 10:49:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_102\jre
+Sep 07, 2016 10:49:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_102-b14
+Sep 07, 2016 10:49:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Sep 07, 2016 10:49:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\CS570Project\apache-tomcat-7.0.70
+Sep 07, 2016 10:49:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\CS570Project\apache-tomcat-7.0.70
+Sep 07, 2016 10:49:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Sep 07, 2016 10:49:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\CS570Project\apache-tomcat-7.0.70\conf\logging.properties
+Sep 07, 2016 10:49:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Sep 07, 2016 10:49:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=D:\CS570Project\apache-tomcat-7.0.70\endorsed
+Sep 07, 2016 10:49:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\CS570Project\apache-tomcat-7.0.70
+Sep 07, 2016 10:49:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\CS570Project\apache-tomcat-7.0.70
+Sep 07, 2016 10:49:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\CS570Project\apache-tomcat-7.0.70\temp
+Sep 07, 2016 10:49:01 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.7 using APR version 1.5.2.
+Sep 07, 2016 10:49:01 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Sep 07, 2016 10:49:02 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.2h  3 May 2016)
+Sep 07, 2016 10:49:02 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Sep 07, 2016 10:49:02 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Sep 07, 2016 10:49:02 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1420 ms
+Sep 07, 2016 10:49:02 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 07, 2016 10:49:02 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.70
+Sep 07, 2016 10:49:06 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [187] milliseconds.
+Sep 07, 2016 10:49:06 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\FileDemo.war
+Sep 07, 2016 10:49:06 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\FileDemo.war has finished in 124 ms
+Sep 07, 2016 10:49:06 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\HelloWorld.war
+Sep 07, 2016 10:49:08 AM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/HelloWorld'
+Sep 07, 2016 10:49:08 AM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 07, 2016 10:49:08 AM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/HelloWorld/WEB-INF/faces-config.xml for modifications
+Sep 07, 2016 10:49:09 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\HelloWorld.war has finished in 2,043 ms
+Sep 07, 2016 10:49:09 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersIndexer.war
+Sep 07, 2016 10:49:09 AM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersIndexer'
+Sep 07, 2016 10:49:09 AM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 07, 2016 10:49:10 AM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersIndexer/WEB-INF/faces-config.xml for modifications
+Sep 07, 2016 10:49:10 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersIndexer.war has finished in 1,503 ms
+Sep 07, 2016 10:49:10 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war
+Sep 07, 2016 10:49:12 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 07, 2016 10:49:12 AM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersSearchEngine'
+Sep 07, 2016 10:49:12 AM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 07, 2016 10:49:13 AM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersSearchEngine/WEB-INF/faces-config.xml for modifications
+Sep 07, 2016 10:49:13 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war has finished in 2,691 ms
+Sep 07, 2016 10:49:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\examples
+Sep 07, 2016 10:49:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\examples has finished in 686 ms
+Sep 07, 2016 10:49:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\host-manager
+Sep 07, 2016 10:49:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\host-manager has finished in 63 ms
+Sep 07, 2016 10:49:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\manager
+Sep 07, 2016 10:49:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\manager has finished in 62 ms
+Sep 07, 2016 10:49:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\ROOT
+Sep 07, 2016 10:49:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\ROOT has finished in 141 ms
+Sep 07, 2016 10:49:14 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Sep 07, 2016 10:49:14 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Sep 07, 2016 10:49:14 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 11560 ms
+Sep 07, 2016 10:49:46 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/FileDemo]
+Sep 07, 2016 10:49:50 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\FileDemo.war
+Sep 07, 2016 10:49:50 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\FileDemo.war has finished in 79 ms
+Sep 07, 2016 10:50:34 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Sep 07, 2016 10:50:34 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Sep 07, 2016 10:50:34 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 07, 2016 10:50:35 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/TheCrawlersIndexer] appears to have started a thread named [Mojarra-WebResourceMonitor-1-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+Sep 07, 2016 10:50:35 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Sep 07, 2016 10:50:35 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Sep 07, 2016 10:50:35 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+Sep 07, 2016 10:50:35 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+Sep 07, 2016 10:51:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.70
+Sep 07, 2016 10:51:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jun 15 2016 16:27:45 UTC
+Sep 07, 2016 10:51:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.70.0
+Sep 07, 2016 10:51:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 7
+Sep 07, 2016 10:51:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1
+Sep 07, 2016 10:51:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Sep 07, 2016 10:51:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_102\jre
+Sep 07, 2016 10:51:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_102-b14
+Sep 07, 2016 10:51:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Sep 07, 2016 10:51:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\CS570Project\apache-tomcat-7.0.70
+Sep 07, 2016 10:51:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\CS570Project\apache-tomcat-7.0.70
+Sep 07, 2016 10:51:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Sep 07, 2016 10:51:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\CS570Project\apache-tomcat-7.0.70\conf\logging.properties
+Sep 07, 2016 10:51:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Sep 07, 2016 10:51:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=D:\CS570Project\apache-tomcat-7.0.70\endorsed
+Sep 07, 2016 10:51:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\CS570Project\apache-tomcat-7.0.70
+Sep 07, 2016 10:51:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\CS570Project\apache-tomcat-7.0.70
+Sep 07, 2016 10:51:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\CS570Project\apache-tomcat-7.0.70\temp
+Sep 07, 2016 10:51:38 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.7 using APR version 1.5.2.
+Sep 07, 2016 10:51:38 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Sep 07, 2016 10:51:39 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.2h  3 May 2016)
+Sep 07, 2016 10:51:39 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Sep 07, 2016 10:51:39 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Sep 07, 2016 10:51:39 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1388 ms
+Sep 07, 2016 10:51:39 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 07, 2016 10:51:39 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.70
+Sep 07, 2016 10:54:36 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [219] milliseconds.
+Sep 07, 2016 10:54:36 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\FileDemo.war
+Sep 07, 2016 10:54:36 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\FileDemo.war has finished in 156 ms
+Sep 07, 2016 10:54:36 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\HelloWorld.war
+Sep 07, 2016 10:54:37 AM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/HelloWorld'
+Sep 07, 2016 10:54:38 AM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 07, 2016 10:54:38 AM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/HelloWorld/WEB-INF/faces-config.xml for modifications
+Sep 07, 2016 10:54:38 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\HelloWorld.war has finished in 1,983 ms
+Sep 07, 2016 10:54:38 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersIndexer.war
+Sep 07, 2016 10:54:39 AM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersIndexer'
+Sep 07, 2016 10:54:39 AM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 07, 2016 10:54:39 AM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersIndexer/WEB-INF/faces-config.xml for modifications
+Sep 07, 2016 10:54:40 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersIndexer.war has finished in 1,203 ms
+Sep 07, 2016 10:54:40 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war
+Sep 07, 2016 10:54:42 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 07, 2016 10:54:42 AM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersSearchEngine'
+Sep 07, 2016 10:54:42 AM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 07, 2016 10:54:43 AM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersSearchEngine/WEB-INF/faces-config.xml for modifications
+Sep 07, 2016 10:54:43 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war has finished in 3,093 ms
+Sep 07, 2016 10:54:43 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\examples
+Sep 07, 2016 10:54:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\examples has finished in 1,263 ms
+Sep 07, 2016 10:54:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\host-manager
+Sep 07, 2016 10:54:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\host-manager has finished in 63 ms
+Sep 07, 2016 10:54:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\manager
+Sep 07, 2016 10:54:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\manager has finished in 280 ms
+Sep 07, 2016 10:54:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\ROOT
+Sep 07, 2016 10:54:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\CS570Project\apache-tomcat-7.0.70\webapps\ROOT has finished in 94 ms
+Sep 07, 2016 10:54:44 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Sep 07, 2016 10:54:44 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Sep 07, 2016 10:54:44 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 185036 ms
+Sep 07, 2016 11:11:51 AM com.sun.faces.context.ExceptionHandlerImpl log
+1100: JSF1073: javax.faces.application.ViewExpiredException caught during processing of RESTORE_VIEW 1 : UIComponent-ClientId=, Message=viewId:/search.xhtml - View /search.xhtml could not be restored.
+Sep 07, 2016 11:11:51 AM com.sun.faces.context.ExceptionHandlerImpl log
+1100: viewId:/search.xhtml - View /search.xhtml could not be restored.
+javax.faces.application.ViewExpiredException: viewId:/search.xhtml - View /search.xhtml could not be restored.
+	at com.sun.faces.lifecycle.RestoreViewPhase.execute(RestoreViewPhase.java:210)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.RestoreViewPhase.doPhase(RestoreViewPhase.java:121)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:442)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1082)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:623)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+Sep 07, 2016 11:15:59 AM com.sun.faces.context.ExceptionHandlerImpl log
+1100: JSF1073: javax.faces.application.ViewExpiredException caught during processing of RESTORE_VIEW 1 : UIComponent-ClientId=, Message=viewId:/search.xhtml - View /search.xhtml could not be restored.
+Sep 07, 2016 11:15:59 AM com.sun.faces.context.ExceptionHandlerImpl log
+1100: viewId:/search.xhtml - View /search.xhtml could not be restored.
+javax.faces.application.ViewExpiredException: viewId:/search.xhtml - View /search.xhtml could not be restored.
+	at com.sun.faces.lifecycle.RestoreViewPhase.execute(RestoreViewPhase.java:210)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.RestoreViewPhase.doPhase(RestoreViewPhase.java:121)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:442)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1082)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:623)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+Sep 07, 2016 11:17:34 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/TheCrawlersSearchEngine]
+Sep 07, 2016 11:17:44 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war
+Sep 07, 2016 11:17:45 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 07, 2016 11:17:45 AM com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/TheCrawlersSearchEngine'
+Sep 07, 2016 11:17:45 AM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFO: JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+Sep 07, 2016 11:17:45 AM com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/TheCrawlersSearchEngine/WEB-INF/faces-config.xml for modifications
+Sep 07, 2016 11:17:45 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive D:\CS570Project\apache-tomcat-7.0.70\webapps\TheCrawlersSearchEngine.war has finished in 1,594 ms
+Sep 07, 2016 11:28:31 AM com.sun.faces.context.SessionMap put
+WARNING: JSF1063: WARNING! Setting non-serializable attribute value into HttpSession (key: loginBean, value class: iit.cs570.assign1.web.bean.LoginBean).
+Sep 07, 2016 11:29:11 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/HelloWorld]
+Sep 07, 2016 11:29:14 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/FileDemo]
+Sep 07, 2016 11:44:02 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Sep 07, 2016 11:44:02 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Sep 07, 2016 11:44:02 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 07, 2016 11:44:07 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Sep 07, 2016 11:44:08 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Sep 07, 2016 11:44:08 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+Sep 07, 2016 11:44:08 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>The Crawlers - Search</title>
+    </head>
+    <body>
+
+        <div style="margin-top:30px;"  align="left">
+            <h:form>
+                <table>
+                    <tr>
+                        <td> <LABEL><b><font face="Tahoma">The Crawlers</font></b></LABEL></td>
+                        <td> <h:inputText id="searchquery" value="#{searchBean.query}" style="width: 500px"/></td>
+                        <td><h:commandButton value="Search" action="#{searchBean.search}"/></td>
+                    </tr>
+                    <tr>
+                        <h:selectOneRadio value="#{searchBean.similarity}">
+                            <f:selectItem itemValue="TFIDF" itemLabel="TFIDF"/>
+                            <f:selectItem itemValue="BM25" itemLabel="BM25" />	   			
+                        </h:selectOneRadio>
+                    </tr>
+                </table>
+                
+            </h:form>
+            <hr/>
+            <LABEL><font color="#978B83">#{searchBean.searchcount} results found.</font></LABEL>
+            <br/>
+             <br/>
+            <h:dataTable value="#{searchBean.results}" var="result">     
+                <h:column>
+                    <a href="#{result.path}"><font color="#862B13"></font>#{result.title}</a>&nbsp;score-&nbsp;#{result.score}<br/>  <h:outputText value="#{result.summary}" escape="false" />
+                </h:column>
+                <h:column><br/></h:column>
+             </h:dataTable>
+        </div>
+    </body>
+</html>
+

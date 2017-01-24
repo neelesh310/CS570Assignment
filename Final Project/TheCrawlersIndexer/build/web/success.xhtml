@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+	<title>The Crawlers - Indexer</title>
+</h:head>
+<h:body>
+     <hr/>
+    <h2>Welcome The Crawlers Admin!</h2>
+    <hr/>
+        <center>
+          <h:form>
+           <table>
+               <tr>
+                   <h4>Please select the retrieval Method</h4>
+               </tr>
+               <tr>
+               </tr>
+               <tr>
+                   <td>
+                       <h:selectOneMenu value="#{indexerBean.similarity}">
+                       <f:selectItem itemValue="TFIDF" itemLabel="Vector Space Model - TFIDF" />
+                        <f:selectItem itemValue="BM25" itemLabel="Probalistic Retrieval Model - BM25" />
+                   </h:selectOneMenu>
+               </td>
+                   <td>
+                       <h:commandButton value="Start Indexing" action="#{indexerBean.index}" onclick="alert('Indexing will take time. On completion, you will be redirected to completion page. Plese close this box and wait...');"/>
+                   </td>
+               </tr>
+               
+           </table>
+        </h:form>
+    </center>
+</h:body>
+</html>
